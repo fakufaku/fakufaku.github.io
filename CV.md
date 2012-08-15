@@ -39,7 +39,7 @@ July 2006 - August 2008
 
 _Student Assistant_ - Worked on various research projects in ultra wide band (UWB) networking and wireless communications at the Laboratory for computer Communications and Applications. This projects included the debugging and extension of the ns-2 implementation of a dynamic channel coding MAC protocol for an UWB physical layer; The implementation in C and Matlab of different packet detection and timing acquisition algorithms for an Impulse Radio UWB (IR-UWB) test platform; Creation of a new timing acquisition error probabilistic model for IR-UWB that was further used in localization algorithms. 
 
-## EDUCATION
+## Education
 
 **EPFL** - M.Sc. in Communications Systems. GPA 5.78/6, Lausanne, Switzerland, 2009. _Master Thesis_ : _Algorithms for the Computation of Continuous Transforms of Rectilinear Polygons,_ [pdf](resource/pdf/tech_2009_master_thesis.pdf). Grade: 6/6.
 
@@ -47,7 +47,7 @@ _Student Assistant_ - Worked on various research projects in ultra wide band (UW
 
 **Royal Institute of Technology** - One year Erasmus exchange, Stockholm, Sweden, 2006
 
-## LANGUAGES
+## Languages
 
 * _French_ - Native
 
@@ -59,7 +59,7 @@ _Student Assistant_ - Worked on various research projects in ultra wide band (UW
 
 * _Swedish_ - Basic
 
-## SKILLS
+## Skills
 
 * _Area of expertise_ -
 Signal processing, Fourier and wavelet transforms, wireless communications, simulation of communication systems, stochastic modeling, probability theory, information theory, ultra-wide band, networking.
@@ -70,7 +70,7 @@ Matlab (inc. MEX, Simulink), C/C++, Java, Bash, VHDL, PERL, Prolog, PHP, CSS, UM
 * _Standards and Protocols_ -
 3GPP WCDMA, 802.11, TCP/IP, 802.15.4a.
 
-## HOBBIES AND INTERESTS
+## Hobbies and Interests
 
 * Climb and hike in summer, telemark and snowboard in winter.
 
@@ -78,6 +78,6 @@ Matlab (inc. MEX, Simulink), C/C++, Java, Bash, VHDL, PERL, Prolog, PHP, CSS, UM
 
 * Discover about world cultures and food. Food blogging (tabemonogatari). Learn and practice languages while socializing.
 
-## REFERENCE
+## Reference
 
 Reference can be provided upon demand.
