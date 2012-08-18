@@ -2,13 +2,33 @@
 layout: page
 title: "Curriculum Vitae"
 description: ""
-group: navigation
+group: static
 ---
 {% include JB/setup %}
 
 ## Experience
 
-### [IBM Research - Zürih](http://www.zurich.ibm.com), Rüschlikon, Switzerland
+### [SAFECAST Japan](http://www.safecast.org/), Tokyo, Japan
+
+March 2011 - Present
+
+_bGeigie dude_ - Volunteer, designing, manufacturing and writing firmware for
+car-borne geo-tagged radiation measurement devices as part of a grass-root
+initiative to monitor fallout from the Fukushima Dai-ichi triple meltdown of
+March 2011.
+
+### [NEC Corporation](http://www.nec.com/), Kawasaki, Japan
+
+Media & Information Processing Laboratory
+
+January 2011 - August 2012
+
+_Temporary Research Staff_ - Development of new algorithms for
+single-microphone speech denoising techniques based on spectral subtraction for
+application in consumer electronics. Specifically: speech harmonics preservation,
+DCT-based spectral subtraction, wind noise suppression.
+
+### [IBM Research - Zürch](http://www.zurich.ibm.com), Rüschlikon, Switzerland
 
 Systems Software Group
 
@@ -72,6 +92,8 @@ Matlab (inc. MEX, Simulink), C/C++, Java, Bash, VHDL, PERL, Prolog, PHP, CSS, UM
 
 ## Hobbies and Interests
 
+* Member of Tokyo Hackerspace, DIY electronics, Arduino projects.
+
 * Climb and hike in summer, telemark and snowboard in winter.
 
 * Literature, from classics to science-fiction. Photography (flickr). Music, played the drums for more than 10 years.
@@ -80,4 +102,5 @@ Matlab (inc. MEX, Simulink), C/C++, Java, Bash, VHDL, PERL, Prolog, PHP, CSS, UM
 
 ## Reference
 
-Reference can be provided upon demand.
+Reference can be provided upon [demand](mailto:{{ site.author.email }}).
+

@@ -2,7 +2,7 @@
 layout: page
 title: "Publications"
 description: ""
-group: navigation
+group: static
 ---
 {% include JB/setup %}
 
