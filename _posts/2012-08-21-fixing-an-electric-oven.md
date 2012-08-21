@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Fixing an Electric Oven"
-description: ""
-category: 
-tags: []
+description: "Electric oven convesion using Arduino"
+tagline: "Coming soon: cakes!"
+category: hacks
+tags: [hack, oven, TokyoTime]
 ---
 {% include JB/setup %}
 
