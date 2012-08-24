@@ -8,7 +8,7 @@ tags: [Arduino, Tokyo Hackerspace]
 ---
 {% include JB/setup %}
 
-A few weeks ago, we decided on the mailing list of the Tokyo Hackerspace that we need an Arduino clone.
+A few weeks ago, we decided on the mailing list of the [Tokyo Hackerspace](http://www.tokyohackerspace.org) that we need an Arduino clone.
 It is common at the beginning of a new project to use a full-blown Arduino but then to go with the bare Atmega328 chip for the final version for space, cost reasons.
 And in such case my thinking was that it would be great to have a small PCB where you can create a minimal version of the Arduino platform, with some flexibility
 regarding voltage, regulator and crystal frequency. And if everything could be through-hole and off-the-shelf our [local electronics wonderland](http://www.akizukidenshi.com/)
