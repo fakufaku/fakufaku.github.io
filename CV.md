@@ -8,11 +8,11 @@ group: static
 
 ## Experience
 
-### School of Computer and Communication Sciences, Swiss Insititue of Technology, Lausanne ([EPFL](http://www.epfl.ch)), Switzerland
+### [EDIC](http://phd.epfl.ch/page-19698.html), Swiss Insititue of Technology, Lausanne ([EPFL](http://www.epfl.ch)), Switzerland
 
 September 2012 - Present
 
--PhD Candidate_ - Focus on processing and sensing of environmental data.
+_PhD Candidate_ - Focus on processing and sensing of environmental data.
 
 ### [SAFECAST Japan](http://www.safecast.org/), Tokyo, Japan
 
