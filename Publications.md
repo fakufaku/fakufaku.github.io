@@ -13,7 +13,14 @@ R. Scheibler, P. Hurley and A. Chebira, _Fast continuous Haar and Fourier transf
 
 ### CONFERENCE PAPERS
 
-R. Scheibler, P. Hurley, and A. Chebira, _Pruned continuous Haar transform of 2D polygonal patterns with application to VLSI layouts,_ to appear in: The 2010 International Congress on Computer Applications and Computational Science, 2010. 
+
+M. Martinez-Camara, I. Dokmanic, J. Ranieri, R. Scheibler, M. Vetterli, A. Stohl, _The Fukushima Inverse Problem,_ _to appear:_ ICASSP 2013, 2013.
+[pdf](resource/pdf/conf_2013_fukushima.pdf)
+
+R. Scheibler, P. Hurley, _Computing exact Fourier series coefficients of IC rectilinear polygons from low-resolution fast Fourier coefficients,_ Proc. SPIE 8326, Optical Microlithography XXV, 83262V, Feb. 2012.
+[pdf](resource/pdf/conf_2012_exact_CFS.pdf)
+
+R. Scheibler, P. Hurley, and A. Chebira, _Pruned Continuous Haar Transform of 2D Polygonal Patterns with Application to VLSI Layouts,_ Proc. of the 2010 IRAST Int. Cong. on Comp. App. and Computational Sci. (CACS 2010), pp. 984–987, 2010.
 [pdf](resource/pdf/conf_2010_ibm_pcht_cacs_proc.pdf)
 
 R. Scheibler, J. Okello, K. Seki, T. Kobori, and M. Ikekawa, _Interference Mitigation for WCDMA using QR Decomposition and a CORDIC-based Reconfigurable Systolic Array,_ IEICE Tech. Rep., vol. 107, no. 452, SR2007-73, pp. 43-48, Jan. 2008. 
