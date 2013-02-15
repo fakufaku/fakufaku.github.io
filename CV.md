@@ -8,7 +8,7 @@ group: static
 
 ## Experience
 
-### [EDIC](http://phd.epfl.ch/page-19698.html), Swiss Insititue of Technology, Lausanne ([EPFL](http://www.epfl.ch)), Switzerland
+### [EDIC](http://phd.epfl.ch/page-19698.html), Swiss Federal Insititue of Technology, Lausanne ([EPFL](http://www.epfl.ch)), Switzerland
 
 September 2012 - Present
 
@@ -97,8 +97,6 @@ Matlab (inc. MEX, Simulink), C/C++, Java, Bash, VHDL, PERL, Prolog, Python, PHP,
 * Climb and hike in summer, telemark and snowboard in winter.
 
 * Literature, from classics to science-fiction. Photography (flickr). Music, played the drums for more than 10 years.
-
-* Discover about world cultures and food. Food blogging (tabemonogatari). Learn and practice languages while socializing.
 
 ## Reference
 
