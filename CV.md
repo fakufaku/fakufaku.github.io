@@ -43,12 +43,6 @@ February 2009 - September 2010
 _Research Intern_ - Developed algorithms for the computation of the continuous Haar, Fourier and cosine transforms of rectilinear polygons found in IC layouts. Derived the theoretical computational complexity. Implemented the algorithms in a lithography tool and benchmarked against discrete transforms. Investigated the sparsity of the representation of the polygons in Haar basis and its application to the pattern analysis of IC layouts. Outcome resulted in scientific articles, highly optimized software and patents filing.
 EPFL    Lausanne, Switzerland
 
-### Computer Networks and Information Sciences classes, [EPFL](http://www.epfl.ch)
-
-September 2008 - January 2009
-
-_Teaching Assistant_ - Helped students with pencil and paper exercises and during lab sessions. Assisted in the preparation of the lab sessions.
-
 ### [NEC Corporation](http://www.nec.com/), Kawasaki, Japan
 
 System IP Core Laboratory
