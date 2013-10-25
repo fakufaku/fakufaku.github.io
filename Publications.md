@@ -13,6 +13,8 @@ R. Scheibler, P. Hurley and A. Chebira, _Fast continuous Haar and Fourier transf
 
 ### CONFERENCE PAPERS
 
+R. Scheibler, S. Haghighatshoar and M. Vetterli, _A Fast Hadamard Transform for Signals with Sub-linear Sparsity,_ 51st Annual Allerton Conference on Communication, Control, and Computing, Allerton Retreat Center, Monticello, Illinois, 2013.
+[pdf](resource/pdf/conf_2013_allerton.pdf) [slides](resource/pdf/conf_2013_allerton_slides.pdf) [code](https://dl.dropboxusercontent.com/u/78009186/SparseFHT/SparseFHT-v0.1.zip)
 
 M. Martinez-Camara, I. Dokmanic, J. Ranieri, R. Scheibler, M. Vetterli, A. Stohl, _The Fukushima Inverse Problem,_ _to appear:_ ICASSP 2013, 2013.
 [pdf](resource/pdf/conf_2013_fukushima.pdf)
