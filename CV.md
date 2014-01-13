@@ -12,16 +12,16 @@ group: static
 
 September 2012 - Present
 
-_PhD Candidate_ - Focus on processing and sensing of environmental data.
+_PhD Candidate_ - Investigating approximate and randomized algorithms in signal processing.
 
-### [SAFECAST Japan](http://www.safecast.org/), Tokyo, Japan
+### [SAFECAST Japan](http://safecast.org/), Tokyo, Japan
 
 March 2011 - Present
 
 _bGeigie dude_ - Volunteer, designing, manufacturing and writing firmware for
 car-borne geo-tagged radiation measurement devices as part of a grass-root
 initiative to monitor fallout from the Fukushima Dai-ichi triple meltdown of
-March 2011.
+March 2011. So far, 15 million measurement points have been collected using this system.
 
 ### [NEC Corporation](http://www.nec.com/), Kawasaki, Japan
 
@@ -40,8 +40,13 @@ Systems Software Group
 
 February 2009 - September 2010
 
-_Research Intern_ - Developed algorithms for the computation of the continuous Haar, Fourier and cosine transforms of rectilinear polygons found in IC layouts. Derived the theoretical computational complexity. Implemented the algorithms in a lithography tool and benchmarked against discrete transforms. Investigated the sparsity of the representation of the polygons in Haar basis and its application to the pattern analysis of IC layouts. Outcome resulted in scientific articles, highly optimized software and patents filing.
-EPFL    Lausanne, Switzerland
+_Research Intern_ - Developed algorithms for the computation of the continuous
+Haar, Fourier and cosine transforms of rectilinear polygons found in IC
+layouts. Derived the theoretical computational complexity. Implemented the
+algorithms in a lithography tool and benchmarked against discrete transforms.
+Investigated the sparsity of the representation of the polygons in Haar basis
+and its application to the pattern analysis of IC layouts. Outcome resulted in
+scientific articles, highly optimized software and patents filing.
 
 ### [NEC Corporation](http://www.nec.com/), Kawasaki, Japan
 
@@ -73,7 +78,7 @@ _Student Assistant_ - Worked on various research projects in ultra wide band (UW
 
 * _English_ - Fluent (TOEFL ibt 117/120)
 
-* _Japanese_ - Good conversational level (JLPT level 3)
+* _Japanese_ - Fluent conversational level (JLPT level 3)
 
 * _German_ - Good conversational level
 
@@ -82,13 +87,15 @@ _Student Assistant_ - Worked on various research projects in ultra wide band (UW
 ## Skills
 
 * _Area of expertise_ -
-Signal processing, Fourier and wavelet transforms, wireless communications, simulation of communication systems, stochastic modeling, probability theory, information theory, ultra-wide band, networking.
+Signal processing, Fourier and wavelet transforms, sparse FFT, wireless
+communications, embedded systems, sensor networks, simulation of communication
+systems, stochastic modeling, probability theory, information theory.
 
 * _Computer_ -
-Matlab (inc. MEX, Simulink), C/C++, Java, Bash, VHDL, PERL, Prolog, Python, PHP, CSS, UML, PostgreSQL, MySQL, LaTeX, vim, Eagle CAD, ns-2, Office XP, Unix, Linux, Mac OS X, Windows.
+MATLAB, C/C++, Python, Java, Bash, Arduino, VHDL, PHP, PostgreSQL, MySQL, LaTeX, vim, Eagle CAD, ns-2, Office XP, Unix, Linux, Mac OS X, Windows.
 
 * _Standards and Protocols_ -
-3GPP WCDMA, 802.11, TCP/IP, 802.15.4a.
+3GPP WCDMA, 802.11, TCP/IP.
 
 ## Hobbies and Interests
 

@@ -8,8 +8,10 @@ group: static
 
 ### JOURNAL PAPERS
 
-R. Scheibler, P. Hurley and A. Chebira, _Fast continuous Haar and Fourier transforms of rectilinear polygons from VLSI layouts,_ in preparation, 2010. 
-[pdf](resource/pdf/jour_2010_ibm_pcht_fcfs.pdf)
+R. Scheibler, S. Haghighatshoar and M. Vetterli, _A Fast Hadamard Transform for Signals with Sub-linear Sparsity in the Transform Domain,_ preprint (submitted), arXiv:1310.1803, 2013.
+[pdf](http://arxiv.org/pdf/1310.1803v2) [code](https://github.com/LCAV/SparseFHT)
+
+R. Scheibler, P. Hurley and A. Chebira. _Fast continuous Fourier and Haar transforms of rectilinear polygons from very-large-scale integration layouts,_ in Journal of Micro/Nanolithography, MEMS, and MOEMS, vol. 12, num. 4, p. 043008, 2013. [pdf](http://infoscience.epfl.ch/record/192799/files/journal_2013_spie_litho.pdf?version=1)
 
 ### CONFERENCE PAPERS
 
@@ -30,11 +32,11 @@ R. Scheibler, J. Okello, K. Seki, T. Kobori, and M. Ikekawa, _Interference Mitig
 
 ### PATENTS
 
-R. Scheibler, P. Hurley, K. Kryszczuk, and D. Schipani, _Method and System for Computing Fourier Series Coefficients for Mask Layouts using FFT,_ Patent pending, 2010.
-[pdf](resource/pdf/patent_2011_method_US20110271240.pdf)
+R. Scheibler, P. Hurley, K. Kryszczuk, and D. Schipani, _Method and System for Computing Fourier Series Coefficients for Mask Layouts using FFT,_ US 8402399 B2, 2013.
+[pdf](resource/pdf/patent_2013_US8402399B2.pdf)
 
-K. Kryszczuk, P. Hurley, R. Scheibler, and J. Ranieri, _Assessing Printability of Very-Large-Scale Integration Design,_ Patent pending, 2010.
-[pdf](resource/pdf/patent_2012_assessing_US20120030643.pdf)
+K. Kryszczuk, P. Hurley, R. Scheibler, and J. Ranieri, _Assessing Printability of Very-Large-Scale Integration Design,_ US 8327312 B2, 2012.
+[pdf](resource/pdf/patent_2012_US8327312B2.pdf)
 
 ### TECHNICAL REPORTS
 
