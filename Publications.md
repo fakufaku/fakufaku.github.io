@@ -10,7 +10,7 @@ group: static
 
 R. Scheibler, S. Haghighatshoar and M. Vetterli, _A Fast Hadamard Transform for Signals with Sub-linear Sparsity in the Transform Domain,_ preprint (submitted), arXiv:1310.1803, 2013.
 [pdf](http://arxiv.org/pdf/1310.1803v2)
-[code](https://github.com/LCAV/SparseFHT)
+[code](http://lcav.github.io/SparseFHT/)
 
 R. Scheibler, P. Hurley and A. Chebira. _Fast continuous Fourier and Haar transforms of rectilinear polygons from very-large-scale integration layouts,_ in Journal of Micro/Nanolithography, MEMS, and MOEMS, vol. 12, num. 4, p. 043008, 2013. 
 [pdf](http://infoscience.epfl.ch/record/192799/files/journal_2013_spie_litho.pdf?version=1)
@@ -20,11 +20,11 @@ R. Scheibler, P. Hurley and A. Chebira. _Fast continuous Fourier and Haar transf
 R. Scheibler, S. Haghighatshoar and M. Vetterli, _A Fast Hadamard Transform for Signals with Sub-linear Sparsity,_ 51st Annual Allerton Conference on Communication, Control, and Computing, Allerton Retreat Center, Monticello, Illinois, 2013.
 [pdf](resource/pdf/conf_2013_allerton.pdf) 
 [slides](resource/pdf/conf_2013_allerton_slides.pdf) 
-[code](https://dl.dropboxusercontent.com/u/78009186/SparseFHT/SparseFHT-v0.1.zip)
+[code](http://lcav.github.io/SparseFHT/)
 
 M. Martinez-Camara, I. Dokmanic, J. Ranieri, R. Scheibler, M. Vetterli, A. Stohl, _The Fukushima Inverse Problem,_ ICASSP 2013, Vancouver, 2013.
 [pdf](resource/pdf/conf_2013_fukushima.pdf)
-[code](https://github.com/LCAV/FukushimaInverse-ICASSP2013)
+[code](http://lcav.github.io/FukushimaInverse-ICASSP2013/)
 
 R. Scheibler, P. Hurley, _Computing exact Fourier series coefficients of IC rectilinear polygons from low-resolution fast Fourier coefficients,_ Proc. SPIE 8326, Optical Microlithography XXV, 83262V, Feb. 2012.
 [pdf](resource/pdf/conf_2012_exact_CFS.pdf)
