@@ -2,6 +2,7 @@
 layout: post
 title: "Make a custom Pomodoro timer"
 description: "to boost your productivity"
+tagline: "to boost your productivity"
 category: hacks
 tags: [electronic design, hack, PCB]
 ---
