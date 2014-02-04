@@ -41,7 +41,8 @@ the following components to be useful.
     tactile switch is connected to _INT0_
 * __Feedback__ A buzzer is need to give a discrete signal when the timer
     expires. The buzzer is driven by _TIMER0_ in PWM mode at 4 kHz, 50% duty
-    cycle.
+    cycle. I picked an SMD buzzer that does not have a built-in driver, so I
+    needed to add a few components for this.
 * __Extra fun__ As many LEDs as possible to indicate the progress of the timer.
     By default, the ATtiny85 has 5 GPIO pins (we could add an extra one, but
     would lose ISP).  We have thus 3 GPIO remaining.   We assign all of them to
