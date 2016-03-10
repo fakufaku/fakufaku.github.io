@@ -3,10 +3,8 @@ layout: post
 title: "Otemba v1.0"
 tagline: "Tokyo Hackerspace's Arduino Clone"
 description: "An Arduino clone for breadboard prototyping, made in Japan."
-category: Projects
-tags: [Arduino, Tokyo Hackerspace]
+image: otemba/Otemba_dice.jpg
 ---
-{% include JB/setup %}
 
 A few weeks ago, we decided on the mailing list of the [Tokyo Hackerspace](http://www.tokyohackerspace.org) that we need an Arduino clone.
 It is common at the beginning of a new project to use a full-blown Arduino but then to go with the bare Atmega328 chip for the final version for space, cost reasons.
@@ -29,11 +27,11 @@ I started a design on Eagle with the following criteria:
 
 The result is the _Otemba_ v1.0. Otemba means 'tomboy' in Japanese and was chosen because the board is boyish, but still small and cute. Eagle designe files can be found on [github](https://github.com/TokyoHackerspace/Otemba).
 
-![Front]({{ site.url}}/resource/photos/otemba/Otemba_top.png)
-![Back]({{ site.url}}/resource/photos/otemba/Otemba_bot.png)
+![Front]({{ site.baseurl}}/content/images/otemba/Otemba_top.png)
+![Back]({{ site.baseurl}}/content/images/otemba/Otemba_bot.png)
 
 To demonstrate the breadboarding and prototyping capabilities of the Otemba, I have created a simple digital dice using a 7-segment digit and an LED for added flashiness.
 
-![Digital Dice]({{ site.url }}/resource/photos/otemba/Otemba_dice.jpg)
+![Digital Dice]({{ site.baseurl }}/content/images/otemba/Otemba_dice.jpg)
 
 The code is in the [Dice7Seg repo](https://github.com/TokyoHackerspace/Dice7Seg). It uses freewheeling Timer1 and sample about every 100ms to display a number between 1 and 6. There is also a tactile switch that will choose the number in the counter when pressed and display it blinking slowly. When the button is pressed again, the numbers start spinning again.

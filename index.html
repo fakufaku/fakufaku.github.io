@@ -1,29 +1,44 @@
---- 
-layout: default
 ---
-{% include JB/setup %}
+layout: default
+body_class: "home-template user"
+---
+{% include header.html %}
 
-{% for post in site.posts limit:1 %}
-  <div class="page-header">
-    <h1>{{ post.title }} <small>{{ post.tagline }}</small></h1>
+<div class="page-content">
+  <div class="wrapper">
+    <div class="home">
+      {% for post in paginator.posts %}
+      <article class="{%comment%}post_class{%endcomment%}">
+
+          {% if post.image %}
+              <div class="image-holder show">
+                <a href="{{ post.url | prepend: site.baseurl }}" class="inner" style="background-image: url('{{ site.baseurl }}/content/images/{{ post.image }}');">
+                  <img src="{{ site.baseurl }}/content/images/{{ post.image }}">
+              </a>
+            </div>
+          {% endif %}
+
+          <div class="meta">
+            <time datetime="{{ post.date | date: '%Y-%m-%d' }}">
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%B %-d, %Y" }}</a>
+            </time>
+          </div>
+
+          <header>
+              <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+          </header>
+
+          <div class="text">
+              <p>{{ post.excerpt }}</p>
+              <a href="{{ post.url | prepend: site.baseurl }}" class="readmore">Continue Reading</a>
+          </div>
+      </article>
+      {% endfor %}
+
+    </div>
   </div>
-  <div class="post">
-    {{ post.content }}
-    <p class="signoff" align="right">
-      &mdash;<a href="{{ post.url }}">{{ post.date | date: "%b %d, %Y" }}</a>
-    </p>
-  </div>
-{% endfor %}
+</div>
 
-<hr>
+{% include pagination.html %}
 
-<h1>Archive</h1>
-
-Want to see more ? Checkout the archive.
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
+{% include footer.html %}

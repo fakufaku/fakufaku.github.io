@@ -2,9 +2,8 @@
 layout: page
 title: "Curriculum Vitae"
 description: ""
-group: static
+permalink: /cv/
 ---
-{% include JB/setup %}
 
 ## Experience
 
@@ -66,7 +65,7 @@ _Student Assistant_ - Worked on various research projects in ultra wide band (UW
 
 ## Education
 
-**EPFL** - M.Sc. in Communications Systems. GPA 5.78/6, Lausanne, Switzerland, 2009. _Master Thesis_ : _Algorithms for the Computation of Continuous Transforms of Rectilinear Polygons,_ [pdf](resource/pdf/tech_2009_master_thesis.pdf). Grade: 6/6.
+**EPFL** - M.Sc. in Communications Systems. GPA 5.78/6, Lausanne, Switzerland, 2009. _Master Thesis_ : _Algorithms for the Computation of Continuous Transforms of Rectilinear Polygons,_ [pdf](content/pdf/tech_2009_master_thesis.pdf). Grade: 6/6.
 
 **EPFL** - B. Sc. in Communications Systems. GPA 5.22/6, Lausanne, Switzerland, 2006
 

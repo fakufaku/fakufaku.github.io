@@ -3,10 +3,8 @@ layout: post
 title: "Make a custom Pomodoro timer"
 description: "to boost your productivity"
 tagline: "to boost your productivity"
-category: hacks
-tags: [electronic design, hack, PCB]
+image: pomodoro/board_assembled.jpg
 ---
-{% include JB/setup %}
 
 I have recently been interested in the ATtiny85 microcontroller. Its minimalistic,
 yet powerful features make it a very attractive platform for simple hacks and gadgets.
@@ -55,7 +53,7 @@ the following components to be useful.
 
 The resulting schematic follows.
 
-![]({{ site.url }}/resource/photos/pomodoro/Pomodoro_sch.png)
+![]({{ site.baseurl }}/content/images/pomodoro/Pomodoro_sch.png)
 
 Board design
 ------------
@@ -76,12 +74,12 @@ the design (transistor and inductor). For programming, I added the footprint for
 a six-pin ISP header. The programming can then be done by pressing some pogo pins
 to the header footprint.
 
-![]({{ site.url }}/resource/photos/pomodoro/Pomodoro_brd.png)
+![]({{ site.baseurl }}/content/images/pomodoro/Pomodoro_brd.png)
 
 Here is the PCB that came out of fab. We can recognize on top the footprint
 for the coin cell holder. The board is about 4x4 cm.
 
-![]({{ site.url }}/resource/photos/pomodoro/PCB.jpg)
+![]({{ site.baseurl }}/content/images/pomodoro/PCB.jpg)
 
 The finest tracks here are only 0.2 mm wide. For such precision, the bottleneck
 is the mask. I use transparency sheets with the mask printed on a generic laser
@@ -94,7 +92,7 @@ visible in the lower left.
 
 Here is the final product with all components soldered.
 
-![]({{ site.url }}/resource/photos/pomodoro/board_assembled.jpg)
+![]({{ site.baseurl }}/content/images/pomodoro/board_assembled.jpg)
 
 Code design
 -----------
@@ -117,7 +115,7 @@ machine](https://en.wikipedia.org/wiki/Finite-state_machine) looks like this.
 Blue arrows are state switching triggered by a push on the button. Red arrows
 are switching caused by the timer expiration.
 
-![]({{ site.url }}/resource/photos/pomodoro/pomodoro_fsm.png)
+![]({{ site.baseurl }}/content/images/pomodoro/pomodoro_fsm.png)
 
 The _main_ states are black circles. The grey circles are the transition states.
 It was important to add the `BACKOFF` state to debounce the tactile button because it triggered multiple interrupts.

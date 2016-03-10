@@ -2,10 +2,7 @@
 layout: post
 title: "Hello World"
 description: "My first post using Jekyll bootstrap."
-category: 
-tags: [test, jekyll, bootstrap]
 ---
-{% include JB/setup %}
 
 This looks like a great system to use for blogging. 
 

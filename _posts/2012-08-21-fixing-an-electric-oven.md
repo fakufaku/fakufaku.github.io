@@ -3,10 +3,8 @@ layout: post
 title: "Fixing an Electric Oven"
 description: "Electric oven convesion using Arduino"
 tagline: "Coming soon: cakes!"
-category: hacks
-tags: [hack, oven, TokyoTime]
+image: oven/oven4.jpg
 ---
-{% include JB/setup %}
 
 I recently received from a friend an abandoned oven. My friend had partially fixed it using a massive AC relay to switch the heating element on and off using a 5V DC relay itself switched by an arduino.
 
@@ -23,11 +21,11 @@ switch the relay on and off.  The TokyoTime runs at 3.3V, I use a common
 wall-wart switching supply to transform the 110 AC into 5V DC. For convenience,
 I have added a female plug inside the oven.
 
-![Guts of the oven]({{ site.url }}/resource/photos/oven/oven2.jpg)
+![Guts of the oven]({{ site.baseurl }}/content/images/oven/oven2.jpg)
 
 Since the 5V DC relay draws too much current to be driven from a pin directly, we need a MOSFET transistor driver. The following diagram gives an idea of the driving circuit.
 
-![Diagram]({{ site.url }}/resource/photos/oven/oven3.jpg) ![Driver circuit]({{ site.url }}/resource/photos/oven/oven1.jpg)
+![Diagram]({{ site.baseurl }}/content/images/oven/oven3.jpg) ![Driver circuit]({{ site.baseurl }}/content/images/oven/oven1.jpg)
 
 For the temperature control, I use the arduino [PID
 Library](http://arduino.cc/playground/Code/PIDLibrary). Using trial and error,
@@ -40,5 +38,5 @@ found in this [repo](https://github.com/fakufaku/Kuishimbo).
 
 Finally, I neatly arranged the driver circuit in a Tupperware box and glued the TokyoTime on the outside of the oven where the old display was.
 
-![Inside]({{ site.url }}/resource/photos/oven/oven4.jpg) ![Outside]({{ site.url }}/resource/photos/oven/oven5.jpg)
+![Inside]({{ site.baseurl }}/content/images/oven/oven4.jpg) ![Outside]({{ site.baseurl }}/content/images/oven/oven5.jpg)
 

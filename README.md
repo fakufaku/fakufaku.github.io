@@ -1,42 +1,33 @@
-# Jekyll-Bootstrap
+# Joon: Roon theme for Jekyll
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+Jekyll theme based on the Roon for [Ghost](http://github.com/tryghost/roon/).
 
-## Usage
+## Demo
+View this jekyll theme in action [here](https://vormwald.github.io/joon)
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+## Screenshot
+![screenshot](https://raw.githubusercontent.com/vormwald/joon/master/screenshot.png)
 
-## Version
+## Font Options
 
-0.2.13 - stable and versioned using [semantic versioning](http://semver.org/).
+This theme comes with two font options; a serif and sans-serif (the default). 
+Switching between them is done in the HTML, by adding `serif` to the `class` of 
+the `<body>` element in [head.html](https://github.com/vormwald/joon/blob/master/_layouts/default.html.hbs#L6).
 
-## Contributing 
+## Colour Options
 
-This repository tracks 2 projects:
+This theme uses an accent colour for links and the border at the top of pages.
 
-- **Jekyll-Bootstrap Framework.**  
-  The framework for which users should clone and build their blog on top of is available in the master branch.
-  
-  To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-  This is very important as it allows me to accept your pull request without having to publish a public version release.
-  
-  Small, atomic Features, bugs, etc.   
-  Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.   
-  Please rebase as often as possible when working.   
-  Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
-  
-  For Big Features or major API extensions/edits:   
-  This is the one case where I'll accept pull-requests based off the master branch.
-  This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-  Translation : it might take a bit longer so please be patient! (but sincerely thank you).
- 
-- **Jekyll-Bootstrap Documentation Website.**    
-  The documentation website at <http://jekyllbootstrap.com> is maintained in the gh-pages branch.
-  Please fork and contribute documentation additions to this branch only.
+To change this colour, you need to edit [assets/css/screen.css](https://github.com/vormwald/joon/blob/master/assets/css/screen.css).
 
-The master and gh-pages branch do not share the same ancestry. Please treat them as completely separate git repositories!
+There are only two values you need to change, conveniently **located at the very
+top of the file**.
+
+## For More Information
+For more on Jekyll, read the [documentation](http://jekyllrb.com/)
 
 
-## License
+## Copyright & License
 
-[Creative Commons](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+Roon is Copyright (c) 2013-2015 Sam Soffes & Ghost Foundation - Released under 
+the [MIT license](LICENSE).
