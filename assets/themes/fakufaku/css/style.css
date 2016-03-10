@@ -68,4 +68,18 @@ html, body {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
+
+/* share_buttons =================== */
+
+.share_buttons {
+	list-style:none;
+	margin:0;
+	padding:5px 0 ;
+	overflow:hidden;
+}
+.share_buttons li {
+  list-style-type: none;
+  vertical-align: top;
+  padding: 3px;
+}
 	
