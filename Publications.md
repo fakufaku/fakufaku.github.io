@@ -7,14 +7,26 @@ permalink: /pub/
 
 ### JOURNAL PAPERS
 
-R. Scheibler, S. Haghighatshoar and M. Vetterli, _A Fast Hadamard Transform for Signals with Sub-linear Sparsity in the Transform Domain,_ preprint (submitted), arXiv:1310.1803, 2013.
-[pdf](http://arxiv.org/pdf/1310.1803v2)
+I. Dokmanic, R. Scheibler and M. Vetterli, _Raking the Cocktail Party_, in IEEE Journal of Selected Topics in Signal Processing, vol. 9, num. 5, p. 825 - 836, 2015.
+[pdf](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7065205)
+[code](https://github.com/LCAV/AcousticRakeReceiver)
+
+R. Scheibler, S. Haghighatshoar and M. Vetterli, _A Fast Hadamard Transform for Signals with Sub-linear Sparsity in the Transform Domain,_ in IEEE Transactions on Information Theory, vol. 61, num. 4, p. 2115–2135, 2015.
+[pdf](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7042831)
 [code](http://lcav.github.io/SparseFHT/)
 
-R. Scheibler, P. Hurley and A. Chebira. _Fast continuous Fourier and Haar transforms of rectilinear polygons from very-large-scale integration layouts,_ in Journal of Micro/Nanolithography, MEMS, and MOEMS, vol. 12, num. 4, p. 043008, 2013. 
+R. Scheibler, P. Hurley and A. Chebira, _Fast continuous Fourier and Haar transforms of rectilinear polygons from very-large-scale integration layouts,_ in Journal of Micro/Nanolithography, MEMS, and MOEMS, vol. 12, num. 4, p. 043008, 2013. 
 [pdf](http://infoscience.epfl.ch/record/192799/files/journal_2013_spie_litho.pdf?version=1)
 
 ### CONFERENCE PAPERS
+
+R. Scheibler and M. Vetterli, _The recursive Hessian sketch for adaptive filtering,_ in Proc. IEEE, ICASSP 2016, Shanghai, China, 2016.
+[pdf](https://infoscience.epfl.ch/record/215297/files/icassp2016.pdf)
+[code](https://github.com/LCAV/sketchrls)
+
+R. Scheibler, I. Dokmanic and M. Vetterli. _Raking echoes in the time domain,_ in Proc. IEEE, ICASSP 2015, South Brisbane, Queensland, Australia, 2015. 
+[pdf](https://infoscience.epfl.ch/record/202223/files/RakeICASSP2015.pdf)
+[code](https://github.com/LCAV/TimeDomainAcousticRakeReceiver)
 
 R. Scheibler, S. Haghighatshoar and M. Vetterli, _A Fast Hadamard Transform for Signals with Sub-linear Sparsity,_ 51st Annual Allerton Conference on Communication, Control, and Computing, Allerton Retreat Center, Monticello, Illinois, 2013.
 [pdf]({{ site.baseurl }}/content/pdf/conf_2013_allerton.pdf) 
@@ -35,6 +47,9 @@ R. Scheibler, J. Okello, K. Seki, T. Kobori, and M. Ikekawa, _Interference Mitig
 [pdf]({{ site.baseurl }}/content/pdf/conf_2008_nec_corsa.pdf)
 
 ### PATENTS
+
+I. Dokmanic, R. Scheibler, M. Vetterli, _Optimal acoustic rake receiver_, US 20160018510, 2016.
+[link](http://www.google.com/patents/US20160018510)
 
 R. Scheibler, P. Hurley, K. Kryszczuk, and D. Schipani, _Method and System for Computing Fourier Series Coefficients for Mask Layouts using FFT,_ US 8402399 B2, 2013.
 [pdf]({{ site.baseurl }}/content/pdf/patent_2013_US8402399B2.pdf)
