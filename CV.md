@@ -7,13 +7,13 @@ permalink: /cv/
 
 ## Experience
 
-### [EDIC](http://phd.epfl.ch/page-19698.html), Swiss Federal Insititue of Technology, Lausanne ([EPFL](http://www.epfl.ch)), Switzerland
+###### [EDIC](http://phd.epfl.ch/page-19698.html), Swiss Federal Insititue of Technology, Lausanne ([EPFL](http://www.epfl.ch)), Switzerland
 
 September 2012 - Present
 
 _PhD Candidate_ - Investigating approximate and randomized algorithms in signal processing.
 
-### [SAFECAST Japan](http://safecast.org/), Tokyo, Japan
+###### [SAFECAST Japan](http://safecast.org/), Tokyo, Japan
 
 March 2011 - Present
 
@@ -22,7 +22,7 @@ car-borne geo-tagged radiation measurement devices as part of a grass-root
 initiative to monitor fallout from the Fukushima Dai-ichi triple meltdown of
 March 2011. So far, 15 million measurement points have been collected using this system.
 
-### [NEC Corporation](http://www.nec.com/), Kawasaki, Japan
+###### [NEC Corporation](http://www.nec.com/), Kawasaki, Japan
 
 Media & Information Processing Laboratory
 
@@ -33,7 +33,7 @@ single-microphone speech denoising techniques based on spectral subtraction for
 application in consumer electronics. Specifically: speech harmonics preservation,
 DCT-based spectral subtraction, wind noise suppression.
 
-### [IBM Research - Zürch](http://www.zurich.ibm.com), Rüschlikon, Switzerland
+###### [IBM Research - Zürch](http://www.zurich.ibm.com), Rüschlikon, Switzerland
 
 Systems Software Group
 
@@ -47,7 +47,7 @@ Investigated the sparsity of the representation of the polygons in Haar basis
 and its application to the pattern analysis of IC layouts. Outcome resulted in
 scientific articles, highly optimized software and patents filing.
 
-### [NEC Corporation](http://www.nec.com/), Kawasaki, Japan
+###### [NEC Corporation](http://www.nec.com/), Kawasaki, Japan
 
 System IP Core Laboratory
 
@@ -55,7 +55,7 @@ March 2007 - January 2008
 
 _Research Intern_ - Implementation in Matlab of a 3GPP compliant simulator to evaluate the performance of different interference mitigation algorithms.  Implementation and performance evaluation of QRD-RLS interference mitigation for Wideband CDMA on a CORDIC-based reconfigurable systolic array for software-defined radio (SDR) applications. The result of this work was presented at a domestic SDR conference in Nagano, Japan.
 
-### [EPFL](http://www.epfl.ch), Lausanne, Switzerland
+###### [EPFL](http://www.epfl.ch), Lausanne, Switzerland
 
 Laboratory for computer Communications and Applications (LCA2)
 
@@ -77,21 +77,21 @@ _Student Assistant_ - Worked on various research projects in ultra wide band (UW
 
 * _English_ - Fluent (TOEFL ibt 117/120)
 
-* _Japanese_ - Fluent conversational level (JLPT level 3)
+* _Japanese_ - Fluent conversation (JLPT level 3)
 
-* _German_ - Good conversational level
+* _German_ - Conversation
 
 * _Swedish_ - Basic
 
 ## Skills
 
 * _Area of expertise_ -
-Signal processing, Fourier and wavelet transforms, sparse FFT, wireless
+Signal processing, optimization, algorithm design, Fourier and wavelet transforms, sparse FFT, wireless
 communications, embedded systems, sensor networks, simulation of communication
 systems, stochastic modeling, probability theory, information theory.
 
 * _Computer_ -
-MATLAB, C/C++, Python, Java, Bash, Arduino, VHDL, PHP, PostgreSQL, MySQL, LaTeX, vim, Eagle CAD, ns-2, Office XP, Unix, Linux, Mac OS X, Windows.
+C/C++, Python, MATLAB, Java, PostgreSQL, LaTeX, Unix, Linux, Mac OS X, Windows.
 
 * _Standards and Protocols_ -
 3GPP WCDMA, 802.11, TCP/IP.
