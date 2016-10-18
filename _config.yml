@@ -20,6 +20,16 @@ paginate_path: "blog/page:num"
 
 gems: [jekyll-paginate]
 
+socials:
+  - icon: envelope
+    url: mailto:robin[dot]scheibler[at]gmail[dot]com
+  - icon: github
+    url: http://github.com/fakufaku
+  - icon: twitter
+    url: http://www.twitter.com/fakufakurevenge
+  - icon: linkedin
+    url: http://www.linkedin.com/in/robinscheibler
+
 # I want to have a collection of projects
 collections:
   projects:

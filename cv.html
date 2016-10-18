@@ -21,6 +21,7 @@ section_id: cv
     </div>
   </div>
   {% for job in site.data.cv.work %}
+  {% unless job.hidden %}
   <div class='row'>
     <div class="medium-6 large-4 columns">
       {% if job.division %}
@@ -36,6 +37,7 @@ section_id: cv
     </div>
   </div>
   <div class='one spacing'></div>
+  {% endunless %}
   {% endfor %}
 </div>
 
@@ -67,41 +69,45 @@ section_id: cv
   {% endfor %}
 </div>
 
-
-<div class='full parallax' style='background: #f5f5f5'>
+<div class='full parallax' style='background: #fff'>
   <div class='row'>
     <div class='large-12 columns'>
-      <p class='centered-text'>
-        <i class='fa fa-quote-left' style='color: #F9CE06; font-size: 36px;'></i>
-      </p>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="What our clients say" %}
+      {% include section-header.html title="Skills" %}
       <div class='spacing'></div>
     </div>
   </div>
+
   <div class='row'>
-    <div class='large-12 columns'>
-      <div class='mod modTestimonials'>
-        <div class='row'>
-          <div class='small-12 columns'>
-            <div class='items centered-text'>
-              {% for testimonial in page.testimonials %}
-                <div class='item'>
-                  <p class='quote'>"{{testimonial.quote}}"</p>
-                  <p class='author'>- {{testimonial.author}}</p>
-                  <div class='two spacing'></div>
-                </div>
-              {% endfor %}
-            </div>
-          </div>
-          <div class='spacing'></div>
-        </div>
-      </div>
+    <div class="medium-6 large-4 columns">
+      <h4>Languages</h4>
+    </div>
+    <div class="medium-6 large-8 columns">
+      <ul>
+        {% for language in site.data.cv.languages %}
+        <li> {{ language.language }} ({{ language.level }}) </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
+  <div class='one spacing'></div>
+
+  {% for skill in site.data.cv.skills %}
+  <div class='row'>
+    <div class="medium-6 large-4 columns">
+      <h4>{{ skill.name }}</h4>
+    </div>
+    <div class="medium-6 large-8 columns">
+      <ul>
+        {% for item in skill.items %}
+        {{ item }}
+
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class='one spacing'></div>
+  {% endfor %}
+
+
 </div>
 
-{% include our-customers.html %}

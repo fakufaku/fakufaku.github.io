@@ -7,7 +7,7 @@
           <img alt="" src="{{site.url}}/images/logo-robin-grey.png" />
         </a>
       </h1>
-      <p>©2014 Devoll. All rights reserved.</p>
+      <p>©2016 Robin Scheibler. <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a></p>
       <div class='spacing'></div>
       <div class='spacing'></div>
     </div>
@@ -18,9 +18,9 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="portfolio.html">View some works here</a></li>
+          <li><a href="cv.html">Curriculum Vitae</a></li>
+          <li><a href="pubs.html">Publications</a></li>
           <li><a href="blog.html">Follow our blog</a></li>
-          <li><a href="contact.html">Contact us</a></li>
-          <li><a href="services.html">Our services</a></li>
         </ul>
       </div>
       <div class='spacing'></div>
@@ -39,34 +39,20 @@
     </div>
     <div class='large-3 medium-3 columns'>
       <div class='spacing'></div>
-      <h4>Contact us</h4>
+      <h4>Contact me</h4>
       <ul>
-        <li>Phone: +86 (03) 9810 4612</li>
-        <li>Emial: info@devoll-team.com</li>
-        <li>Location: 41 Dean Street, London, UK</li>
+        <li>Phone: +41 (0) 21 693 12 78</li>
+        <li>Location: BC Building, Station 14, EPFL</li>
       </ul>
       <div class='spacing'></div>
       <ul class='socials'>
+        {% for social in site.socials %}
         <li>
-          <a href='http://facebook.com'>
-            <i class='fa fa-facebook'></i>
+          <a href={{ social.url }}>
+            <i class='fa fa-{{ social.icon }}'></i>
           </a>
         </li>
-        <li>
-          <a href='http://twitter.com'>
-            <i class='fa fa-twitter'></i>
-          </a>
-        </li>
-        <li>
-          <a href='http://dribbble.com'>
-            <i class='fa fa-dribbble'></i>
-          </a>
-        </li>
-        <li>
-          <a href='http://tumblr.com'>
-            <i class='fa fa-tumblr'></i>
-          </a>
-        </li>
+        {% endfor %}
       </ul>
       <div class='spacing'></div>
     </div>

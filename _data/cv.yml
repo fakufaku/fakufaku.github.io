@@ -5,7 +5,7 @@ work:
     location: Lausanne, Switzerland
     dates: September 2012 -- Present
     position: Research Assistant
-    description: Computational acoustics and fast tranform algorithms.
+    description: Investigating how strucutral aspects of sound propagation, the echoes in a room for example, can provide more robust and efficient algorithms for problems such as beamforming, direction of arrival, or source separation. In a different line of work, I apply techniques from information theory and theoretical computer science to provide low-complexity algorithms for signal processing problems.
 
   - company: SAFECAST Japan
     url: http://lcav.epfl.ch
@@ -44,9 +44,14 @@ work:
     division: Laboratory for computer Communications and Applications (LCA2)
     dates: July 2006 - August 2008
     position: Student Assistant
+    hidden: True
     description: Worked on various research projects in ultra wide band (UWB) networking and wireless communications at the Laboratory for computer Communications and Applications. This projects included the debugging and extension of the ns-2 implementation of a dynamic channel coding MAC protocol for an UWB physical layer; The implementation in C and Matlab of different packet detection and timing acquisition algorithms for an Impulse Radio UWB (IR-UWB) test platform; Creation of a new timing acquisition error probabilistic model for IR-UWB that was further used in localization algorithms. 
 
 education:
+  - institution: EPFL
+    location: Lausanne, Switzerland
+    degree: Ph.D. in Signal Processing
+    year: 2017
   - institution: EPFL
     location: Lausanne, Switzerland
     degree: M.Sc. in Communications Systems
@@ -77,31 +82,34 @@ languages:
     level: Basic
 
 skills:
-  expertise:
-    - Signal processing
-    - Optimization
-    - Algorithm design
-    - Fourier and wavelet transforms
-    - Sparse FFT
-    - Wireless communications
-    - Embedded systems
-    - Sensor networks
-    - Simulation of communication systems
-    - Stochastic modeling
-    - Probability theory
-    - Information theory
+  - name: Expertise
+    items:
+      - Signal processing,
+      - Optimization,
+      - Algorithm design,
+      - Fourier and wavelet transforms,
+      - Sparse FFT,
+      - Wireless communications,
+      - Embedded systems,
+      - Sensor networks,
+      - Simulation of communication systems,
+      - Stochastic modeling,
+      - Probability theory,
+      - Information theory
 
-  computer:
-    - C/C++
-    - Python
-    - MATLAB
-    - Java
-    - Latex
-    - Eagle CAD
-    - git
-    - phabricator
+  - name: Programming
+    items:
+      - C/C++,
+      - Python,
+      - MATLAB,
+      - Java,
+      - Latex,
+      - Eagle CAD,
+      - git,
+      - phabricator
 
-  os:
-    - Unix
-    - Mac OS X
-    - Windows
+  - name: Operating Systems
+    items:
+      - Unix,
+      - Mac OS X,
+      - Windows
