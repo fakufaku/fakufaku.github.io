@@ -3,7 +3,7 @@ layout: post
 title: "Papercut circuit board"
 description: "Using paper cuts to evaluate PCB size."
 tagline: Paper, scissors, PCB
-image: papercut_circuit.jpg
+images: images/papercut_circuit.jpg
 ---
 
 When designing a printed circuit board to fit in a box of a given size,

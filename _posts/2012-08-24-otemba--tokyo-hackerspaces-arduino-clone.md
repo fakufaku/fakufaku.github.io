@@ -3,7 +3,7 @@ layout: post
 title: "Otemba v1.0"
 tagline: "Tokyo Hackerspace's Arduino Clone"
 description: "An Arduino clone for breadboard prototyping, made in Japan."
-image: otemba/Otemba_dice.jpg
+images: images/otemba/Otemba_dice.jpg
 ---
 
 A few weeks ago, we decided on the mailing list of the [Tokyo Hackerspace](http://www.tokyohackerspace.org) that we need an Arduino clone.

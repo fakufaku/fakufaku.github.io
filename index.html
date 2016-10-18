@@ -1,44 +1,374 @@
 ---
 layout: default
-body_class: "home-template user"
+section_id: home
+title: Robin Scheibler
+
+works:
+  - image: images/@stock/work-1.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: images/@stock/work-2.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: images/@stock/work-3.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: images/@stock/work-4.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: images/@stock/work-5.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: images/@stock/work-6.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: images/@stock/work-7.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: images/@stock/work-8.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+
+socials:
+  - icon: envelope
+    url: mailto:robin[dot]scheibler[at]gmail[dot]com
+  - icon: github
+    url: http://github.com/fakufaku
+  - icon: twitter
+    url: http://www.twitter.com/fakufakurevenge
+  - icon: linkedin
+    url: http://www.linkedin.com/in/robinscheibler
+
+fields:
+  - icon: microphone
+    title: Computational Acoustics
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: cogs
+    title: Theory and Algorithms
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: flask
+    title: Open Lab Equipment
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+
+services:
+  - icon: assistive-listening-systems
+    title: Computational Acoustics
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: cogs
+    title: Theory and Algorithms
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: pagelines
+    title: Open Lab Equipment
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+
+milestones:
+  - icon: folder-open
+    from: 0
+    to: 69
+    title: Projects Completed
+  - icon: coffee
+    from: 0
+    to: 726
+    title: Cups of coffee offered
+  - icon: thumbs-up
+    from: 0
+    to: 59
+    title: Happy clients
+  - icon: file-text
+    from: 0
+    to: 21
+    title: Articles Published
+
 ---
-{% include header.html %}
 
-<div class="page-content">
-  <div class="wrapper">
-    <div class="home">
-      {% for post in paginator.posts %}
-      <article class="{%comment%}post_class{%endcomment%}">
+<div class="four spacing"></div>
 
-          {% if post.image %}
-              <div class="image-holder show">
-                <a href="{{ post.url | prepend: site.baseurl }}" class="inner" style="background-image: url('{{ site.baseurl }}/content/images/{{ post.image }}');">
-                  <img src="{{ site.baseurl }}/content/images/{{ post.image }}">
-              </a>
-            </div>
-          {% endif %}
+<div class="row">
+  <div class="medium-8 columns">
+    <p>
+    I Received the B.Sc. and M.Sc. in Communications Systems from Ecole
+    Polytechnique Fédérale de Lausanne (EPFL) in 2009. My last year of Bachelor
+    studies was spent as an exchange student at the Royal Institute of
+    Technology, in Stockholm.
 
-          <div class="meta">
-            <time datetime="{{ post.date | date: '%Y-%m-%d' }}">
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%B %-d, %Y" }}</a>
-            </time>
-          </div>
+    <p>
+    My Master studies were interrupted for a year in 2007 to do an internship
+    at the System IP core laboratory of NEC Corporation, Kawasaki, Japan.
+    There, I investigated adaptive channel equalization algorithms for WCDMA on
+    a massively parallel architecture.
 
-          <header>
-              <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-          </header>
+    <p>
+    My Master thesis was written while at IBM Research, Zürich, where I stayed
+    for another year after graduating. There I developed new algorithms for the
+    fast computation of continuous Fourier series of polygons, applied to mask
+    layouts of integrated circuits in the optical lithography process.
 
-          <div class="text">
-              <p>{{ post.excerpt }}</p>
-              <a href="{{ post.url | prepend: site.baseurl }}" class="readmore">Continue Reading</a>
-          </div>
-      </article>
-      {% endfor %}
+    <p>
+    Following this, I returned for almost two year to NEC laboratories, this
+    time in the Media Information Processing group to work on single-mic speech
+    denoising algorithms. After the tsunami and earthquake of March 11 2011, I
+    became involved with Safecast where I designed and built devices to take
+    car-borne geo-located measurements of radioactive contamination.
 
+    <p>
+    Since September 2012, I returned to Switzerland. I am currently pursuing
+    the PhD at the Audiovisual Communications Laboratory (LCAV ) at EPFL, under
+    supervision of Prof. Martin Vetterli.
+  </div>
+  <div class="medium-4 columns">
+    <div id="bio">
+      <img src="images/robin_portrait.jpg" class="img-circle"><br>
+
+      <div class='spacing'></div>
+      <ul class='socials'>
+        {% for social in page.socials %}
+        <li>
+          <a href={{ social.url }}>
+            <i class='fa fa-{{ social.icon }}'></i>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+      <div class='spacing'></div>
     </div>
   </div>
 </div>
 
-{% include pagination.html %}
+<div class="two spacing"></div>
 
-{% include footer.html %}
+<div class="row">
+  {% for field in page.fields %}
+  <div class="medium-4 large-4 columns">
+    {% include icon-text.html title=field.title desc=field.desc icon_class=field.icon delay='600' shape_class='icon-text-circle' %}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="spacing"></div>
+
+<div class="full" style="background: #f5f5f5;">
+  <div class="row">
+    <div class="large-12 columns">
+      {% include section-header.html title="Selected Projects" %}
+      <div class="spacing"></div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+      </p>
+      <div class="three spacing"></div>
+    </div>
+  </div>
+
+  <div class="mod modGallery">
+    <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+      {% for work in site.projects limit: 8 %}
+        <li class="{{ work.klass }}">
+          <a href='{{ work.url }}'>
+            <img alt="" src="{{ work.images }}" />
+            <div class='overlay'>
+              <div class='thumb-info'>
+                <h3>{{ work.title }}</h3>
+                <p>{{ work.description }}</p>
+              </div>
+            </div>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Our services" %}
+      <div class='spacing'></div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+      </p>
+      <div class='three spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      <img class="fadeinleft" alt="" src="images/@stock/responsive.png" />
+      <div class='three spacing'></div>
+    </div>
+    <div class='medium-6 columns'>
+      {% for service in page.services %}
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple'>
+            <i class='fa fa-{{service.icon}}'></i>
+            <h3>{{service.title}}</h3>
+            <p>{{service.desc}}</p>
+          </div>
+          <div class='two spacing'></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class='spacing'></div>
+</div>
+
+
+<div class='full parallax' style='background-image: url(images/@stock/milestone-bg.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Parallax effect" color="#fff" %}
+      <div class='spacing'></div>
+      <p class='centered-text' style='color: #ccc;'>
+        Dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+      </p>
+      <div class='two spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    {% for milestone in page.milestones %}
+      <div class='medium-3 large-3 columns'>
+        <div class='mod modMilestone'>
+          <i class='fa fa-{{milestone.icon}}'></i>
+          <strong data-from='{{milestone.from}}' data-to='{{milestone.to}}'>&nbsp;</strong>
+          <span>{{milestone.title}}</span>
+          <div class='four spacing'></div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class='two spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Our team" %}
+      <div class='spacing'></div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+      </p>
+      <div class='two spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    {% for member in site.data.members %}
+      <div class='small-6 medium-3 large-3 columns'>
+        <div class='mod modTeamMember'>
+          <div class='member'>
+            <img class="avatar" alt="" src="{{ member.avatar }}" />
+            <div class='overlay'>
+              <div class='intro'>
+                <h3>{{member.name}}</h3>
+                <p>{{member.position}}</p>
+                <ul class='socials'>
+                  {% for social in member.socials %}
+                    <li>
+                      <a href='{{social.link}}'>
+                        <i class='fa fa-{{social.icon}}'></i>
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class='two spacing'></div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Our recent posts" %}
+      <div class='spacing'></div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+      </p>
+      <div class='two spacing'></div>
+    </div>
+  </div>
+
+  <div class='row'>
+    {% for post in site.posts %}
+      {% if forloop.index > 3 %}
+        {% break %}
+      {% endif %}
+
+      <div class='large-4 medium-4 columns'>
+        <div class='mod modBlogPost'>
+          {% for image in post.images %}
+            {% unless forloop.first %}
+              {% break %}
+            {% endunless %}
+            <a href="{{post.url}}"><img alt="" src="{{image}}" /></a>
+          {% endfor %}
+          <div class='content'>
+            <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
+            <h4><a href="#">{{post.title}}</a></h4>
+            <p>{{post.excerpt}}</p>
+            <!--
+              <div class="tags">
+                {% for cat in post.categories %}
+                  <a href="#">{{cat | capitalize}}</a>
+                  {% unless forloop.last %}
+                    ,
+                  {% endunless %}
+                {% endfor %}
+              </div>
+            -->
+          </div>
+        </div>
+      </div>
+
+    {% endfor %}
+
+  </div>
+
+
+  <div class='two spacing'></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <a class='button' href='blog.html'>See more posts</a>
+      </p>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+
+</div>
+
+
+{% include our-customers.html %}
+
+
+<div class='full no-padding' style='background: #fff'>
+  <div class='two spacing'></div>
+  <div class='mod modCallToAction'>
+    <div class='row'>
+      <div class='medium-9 large-9 columns'>
+        <p>Like what you see here? Checkout this theme and start to build your site immediately.</p>
+      </div>
+      <div class='medium-3 large-3 columns'>
+        <a class='button' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Learn more</a>
+      </div>
+    </div>
+  </div>
+  <div class='spacing'></div>
+</div>

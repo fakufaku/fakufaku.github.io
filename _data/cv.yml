@@ -1,0 +1,107 @@
+work:
+  - company: EPFL
+    division: Audiovisual Communications Laboratory
+    url: http://lcav.epfl.ch
+    location: Lausanne, Switzerland
+    dates: September 2012 -- Present
+    position: Research Assistant
+    description: Computational acoustics and fast tranform algorithms.
+
+  - company: SAFECAST Japan
+    url: http://lcav.epfl.ch
+    location: Tokyo, Japan
+    dates: March 2011 -- Present
+    position: bGeigie dude
+    description: Volunteer, designing, manufacturing and writing firmware for car-borne geo-tagged radiation measurement devices as part of a grass-root initiative to monitor fallout from the Fukushima Dai-ichi triple meltdown of March 2011. So far, 15 million measurement points have been collected using this system.
+
+  - company: NEC Corporation
+    division: Media & Information Processing Laboratory
+    url: http://www.nec.com/
+    location: Kawasaki, Japan
+    dates: January 2011 -- August 2012
+    position: Temporary Research Staff
+    description: Development of new algorithms for single-microphone speech denoising techniques based on spectral subtraction for application in consumer electronics. Specifically, speech harmonics preservation, DCT-based spectral subtraction, wind noise suppression.
+
+  - company: IBM Research &mdash; Zürich
+    division: Systems Software Group
+    url: http://www.zurich.ibm.com
+    location: Rüschlikon, Switzerland
+    dates: February 2009 - September 2010
+    position: Research Intern
+    description: Developed algorithms for the computation of the continuous Haar, Fourier and cosine transforms of rectilinear polygons found in IC layouts. Derived the theoretical computational complexity. Implemented the algorithms in a lithography tool and benchmarked against discrete transforms.  Investigated the sparsity of the representation of the polygons in Haar basis and its application to the pattern analysis of IC layouts. Outcome resulted in scientific articles, highly optimized software and patents filing.  
+
+  - company: NEC Corporation
+    url: http://www.nec.com/
+    location: Kawasaki, Japan
+    division: System IP Core Laboratory
+    dates: March 2007 - January 2008
+    position: Research Intern 
+    description: Implementation in Matlab of a 3GPP compliant simulator to evaluate the performance of different interference mitigation algorithms.  Implementation and performance evaluation of QRD-RLS interference mitigation for Wideband CDMA on a CORDIC-based reconfigurable systolic array for software-defined radio (SDR) applications. The result of this work was presented at a domestic SDR conference in Nagano, Japan.
+
+  - company: EPFL
+    url: http://www.epfl.ch
+    location: Lausanne, Switzerland
+    division: Laboratory for computer Communications and Applications (LCA2)
+    dates: July 2006 - August 2008
+    position: Student Assistant
+    description: Worked on various research projects in ultra wide band (UWB) networking and wireless communications at the Laboratory for computer Communications and Applications. This projects included the debugging and extension of the ns-2 implementation of a dynamic channel coding MAC protocol for an UWB physical layer; The implementation in C and Matlab of different packet detection and timing acquisition algorithms for an Impulse Radio UWB (IR-UWB) test platform; Creation of a new timing acquisition error probabilistic model for IR-UWB that was further used in localization algorithms. 
+
+education:
+  - institution: EPFL
+    location: Lausanne, Switzerland
+    degree: M.Sc. in Communications Systems
+    thesis: Algorithms for the Computation of Continuous Transforms of Rectilinear Polygons
+    thesis_url: /pdf/tech_2009_master_thesis.pdf
+    gpa: 5.78/6
+    year: 2009
+  - institution: EPFL
+    location: Lausanne, Switzerland
+    degree: B.Sc. in Communications Systems
+    gpa: 5.22/6
+    year: 2006
+  - institution: Royal Institute of Technology
+    location: Stockholm, Sweden
+    degree: Erasmus exchange
+    year: 2006
+
+languages:
+  - language: French
+    level: Native
+  - language: English
+    level: Fluent
+  - language: Japanese
+    level: Fluent conversation
+  - language: German
+    level: Conversational
+  - language: Swedish
+    level: Basic
+
+skills:
+  expertise:
+    - Signal processing
+    - Optimization
+    - Algorithm design
+    - Fourier and wavelet transforms
+    - Sparse FFT
+    - Wireless communications
+    - Embedded systems
+    - Sensor networks
+    - Simulation of communication systems
+    - Stochastic modeling
+    - Probability theory
+    - Information theory
+
+  computer:
+    - C/C++
+    - Python
+    - MATLAB
+    - Java
+    - Latex
+    - Eagle CAD
+    - git
+    - phabricator
+
+  os:
+    - Unix
+    - Mac OS X
+    - Windows

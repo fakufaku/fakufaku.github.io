@@ -1,0 +1,198 @@
+journal:
+  - authors:
+    - I. Dokmani&#263;
+    - R. Scheibler
+    - M. Vetterli
+    title: Raking the Cocktail Party
+    journal: IEEE Journal of Selected Topics in Signal Processing
+    volume: 9
+    number: 5
+    pages: 825 &ndash; 836
+    year: 2015
+    pdf: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7065205
+    code: https://github.com/LCAV/AcousticRakeReceiver
+
+  - authors:
+    - R. Scheibler, 
+    - S. Haghighatshoar 
+    - M. Vetterli
+    title: A Fast Hadamard Transform for Signals with Sub-linear Sparsity in the Transform Domain
+    journal: IEEE Transactions on Information Theory
+    volume: 61
+    number: 4 
+    pages: 2115 &ndash; 2135
+    year: 2015
+    pdf: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7042831
+    code: http://lcav.github.io/SparseFHT/
+
+  - authors:
+    - R. Scheibler
+    - P. Hurley
+    - A. Chebira
+    title: Fast continuous Fourier and Haar transforms of rectilinear polygons from very-large-scale integration layouts
+    journal: Journal of Micro/Nanolithography, MEMS, and MOEMS
+    volume: 12
+    number: 4
+    pages: 043008
+    year: 2013
+    pdf: http://infoscience.epfl.ch/record/192799/files/journal_2013_spie_litho.pdf?version=1)
+
+conference:
+  - authors:
+    - R. Scheibler 
+    - M. Vetterli
+    title: The recursive Hessian sketch for adaptive filtering
+    booltitle: Proc. IEEE
+    conference: ICASSP 2016
+    location: Shanghai, China
+    year: 2016
+    pdf: https://infoscience.epfl.ch/record/215297/files/icassp2016.pdf
+    code: https://github.com/LCAV/sketchrls
+
+  - authors:
+    - R. Scheibler
+    - I. Dokmanic
+    - M. Vetterli
+    title: Raking echoes in the time domain
+    booktitle: Proc. IEEE
+    conference: ICASSP 2015
+    location: South Brisbane, Australia
+    year: 2015
+    pdf: https://infoscience.epfl.ch/record/202223/files/RakeICASSP2015.pdf
+    code: https://github.com/LCAV/TimeDomainAcousticRakeReceiver
+
+  - authors:
+    - R. Scheibler
+    - S. Haghighatshoar
+    - M. Vetterli
+    title: A Fast Hadamard Transform for Signals with Sub-linear Sparsity
+    conference: 51st Annual Allerton Conference on Communication, Control, and Computing
+    location: Allerton Retreat Center, Monticello, Illinois
+    year: 2013
+    pdf: /pdf/conf_2013_allerton.pdf
+    slides: /pdf/conf_2013_allerton_slides.pdf
+    code: http://lcav.github.io/SparseFHT/
+
+  - authors:
+    - M. Martinez-Camara
+    - I. Dokmanic
+    - J. Ranieri
+    - R. Scheibler
+    - M. Vetterli
+    - A. Stohl
+    title: The Fukushima Inverse Problem
+    booktitle: Proc. IEEE
+    conference: ICASSP 2013
+    location: Vancouver, Canada
+    year: 2013
+    pdf: /pdf/conf_2013_fukushima.pdf
+    code: http://lcav.github.io/FukushimaInverse-ICASSP2013/
+
+  - authors:
+    - R. Scheibler
+    - P. Hurley
+    title: Computing exact Fourier series coefficients of IC rectilinear polygons from low-resolution fast Fourier coefficients
+    booktitle: Proc. SPIE 8326
+    conference: Optical Microlithography XXV, 83262V
+    location: San Jose, California
+    year: 2012
+    pdf: /pdf/conf_2012_exact_CFS.pdf
+
+  - authors:
+    - R. Scheibler
+    - P. Hurley
+    - A. Chebira
+    title: Pruned Continuous Haar Transform of 2D Polygonal Patterns with Application to VLSI Layouts
+    booktitle: Proc. of the 2010 IRAST Int. Cong. on Comp. App. and Computational Sci. (CACS 2010)
+    pages: 984 &ndash; 987
+    year: 2010
+    pdf: /pdf/conf_2010_ibm_pcht_cacs_proc.pdf
+
+  - authors:
+    - R. Scheibler
+    - J. Okello
+    - K. Seki
+    - T. Kobori
+    - M. Ikekawa
+    title: Interference Mitigation for WCDMA using QR Decomposition and a CORDIC-based Reconfigurable Systolic Array
+    bootitle: IEICE Tech. Rep.
+    volume: 107
+    number: 452, SR2007-73
+    pages: 43 &ndash; 48
+    year: 2008
+    pdf: /pdf/conf_2008_nec_corsa.pdf
+
+patents:
+
+  - authors:
+    - I. Dokmanic
+    - R. Scheibler
+    - M. Vetterli
+    title: Optimal acoustic rake receivers
+    number: US 20160018510
+    year: 2016
+    pdf: http://www.google.com/patents/US20160018510
+
+  - authors:
+    - R. Scheibler
+    - S. Haghighatshoar
+    - M. Vetterli
+    title: Method for determining the Walsh-Hadamard transform of N samples of a signal and apparatus for performing the same
+    number: US 20150098313
+    year: 2015
+    pdf: https://www.google.com/patents/US20150098313
+
+  - authors:
+    - R. Scheibler
+    - P. Hurley
+    - K. Kryszczuk
+    - D. Schipani
+    title: Method and System for Computing Fourier Series Coefficients for Mask Layouts using FFT
+    number: US 8402399 B2
+    year: 2013
+    pdf: /pdf/patent_2013_US8402399B2.pdf
+
+  - authors:
+    - K. Kryszczuk
+    - P. Hurley
+    - R. Scheibler
+    - J. Ranieri
+    title: Assessing Printability of Very-Large-Scale Integration Design
+    number: US 8327312 B2
+    year: 2012
+    pdf: /pdf/patent_2012_US8327312B2.pdf
+
+techreps:
+
+  - authors:
+    - R. Scheibler
+    title: Algorithms for the Computation of Continuous Transforms of Rectilinear Polygons from IC Layouts
+    type: Master Thesis
+    institution: LCAV, EPFL
+    year: 2009
+    pdf: /pdf/tech_2009_master_thesis.pdf
+
+  - authors: 
+    - R. Scheibler
+    title: "Ranging in IR-UWB Networks II: Modeling of the Synchronization Error and Applications to Maximum Likelihood Localization"
+    type: MICS Tech. Rep.
+    institution: LCA2, EPFL
+    year: 2008
+    pdf: /pdf/tech_2008_mics.pdf
+
+  - authors:
+    - R. Scheibler
+    title: "Ranging in IR-UWB Networks: Survey and Modeling of Synchronization Error"
+    type: "Optional Project"
+    institution: LCA2, EPFL
+    year: 2008
+    pdf: /pdf/tech_2008_epfl_opt_proj_master3.pdf
+
+  - authors:
+    - R. Scheibler
+    title: Packet Detection and Timing Estimation on an UWB Physical Layer
+    type: Semester Project
+    institution: LCA2, EPFL
+    year: 2006
+    pdf: /pdf/tech_2006_epfl_sem_proj_master2.pdf
+

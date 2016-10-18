@@ -1,23 +1,26 @@
 # Site settings
-title: "Robin Scheibler"
-logo: logo_robin.png # image from https://www.flickr.com/photos/lwr/5496279831/in/set-72157594159055823
-email: fakufaku@gmail.com
-description: > # this means to ignore newlines until "url:"
-  Robin Scheibler is a graduate student at the <a href='http://lcav.epfl.ch'>Audiovisual 
-  Communications Laboratory</a> of <a href='http://www.epfl.ch'>EPFL</a> in Lausanne, 
-  Switzerland. He likes algorithms, electronics, and open data.
-url: "http://robinscheibler.org" # the base hostname & protocol for your site
+title: Robin Scheibler
+email: robin.scheibler@epfl.ch
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: fakufakurevenge
 github_username:  fakufaku
-
-permalink: pretty
-paginate: 5
+linkedin_username: robinscheibler
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
 
-gems:
-  - jekyll-sitemap
-  - jekyll-paginate
+
+paginate: 3
+paginate_path: "blog/page:num"
+
+gems: [jekyll-paginate]
+
+# I want to have a collection of projects
+collections:
+  projects:
+    output: true

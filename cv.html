@@ -1,0 +1,107 @@
+---
+layout: default
+title: Curriculum Vitae
+section_id: cv
+---
+
+<div class='full parallax' style='background-image: url(images/banner_2.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='twelve columns'>
+      {% include section-header.html title="Curriculum vitae" color="#fff" tagline="Things I have been doing" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Work History" %}
+      <div class='spacing'></div>
+    </div>
+  </div>
+  {% for job in site.data.cv.work %}
+  <div class='row'>
+    <div class="medium-6 large-4 columns">
+      {% if job.division %}
+      <h4>{{job.division}}, {{job.company}}</h4>
+      {% else %}
+      <h4>{{job.company}}</h4>
+      {% endif %}
+      <p>{{job.dates}}</p>
+    </div>
+
+    <div class="medium-6 large-8 columns">
+      <b>{{job.position}}</b> &mdash; {{job.description}}
+    </div>
+  </div>
+  <div class='one spacing'></div>
+  {% endfor %}
+</div>
+
+<div class='full parallax' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Education" %}
+      <div class='spacing'></div>
+    </div>
+  </div>
+  {% for school in site.data.cv.education %}
+  <div class='row'>
+    <div class="medium-6 large-4 columns">
+      <h4>{{school.degree}}</h4>
+    </div>
+    <div class="medium-6 large-8 columns">
+      <b>{{school.institution}}</b>, {{school.location}}, {{school.year}}<br>
+      {% if school.thesis %}
+      Thesis: {{school.thesis}}
+        {% if school.thesis_url %}
+        <span class="warning label">
+          <a href="{{ school.thesis_url }}">pdf</a>
+        </span>
+        {% endif %}
+      {% endif %}
+    </div>
+  </div>
+  <div class='one spacing'></div>
+  {% endfor %}
+</div>
+
+
+<div class='full parallax' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <i class='fa fa-quote-left' style='color: #F9CE06; font-size: 36px;'></i>
+      </p>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="What our clients say" %}
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modTestimonials'>
+        <div class='row'>
+          <div class='small-12 columns'>
+            <div class='items centered-text'>
+              {% for testimonial in page.testimonials %}
+                <div class='item'>
+                  <p class='quote'>"{{testimonial.quote}}"</p>
+                  <p class='author'>- {{testimonial.author}}</p>
+                  <div class='two spacing'></div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class='spacing'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include our-customers.html %}

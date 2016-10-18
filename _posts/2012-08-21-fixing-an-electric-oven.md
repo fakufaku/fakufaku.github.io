@@ -3,7 +3,7 @@ layout: post
 title: "Fixing an Electric Oven"
 description: "Electric oven convesion using Arduino"
 tagline: "Coming soon: cakes!"
-image: oven/oven4.jpg
+images: images/oven/oven4.jpg
 ---
 
 I recently received from a friend an abandoned oven. My friend had partially fixed it using a massive AC relay to switch the heating element on and off using a 5V DC relay itself switched by an arduino.

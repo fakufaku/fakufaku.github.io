@@ -1,0 +1,15 @@
+- name: Home
+  path: index.html
+  section_id: home
+- name: Portfolio
+  path: portfolio.html
+  section_id: portfolio
+- name: CV
+  path: cv.html
+  section_id: cv
+- name: Publications
+  path: pubs.html
+  section_id: pubs
+- name: Blog
+  path: blog/
+  section_id: blog
