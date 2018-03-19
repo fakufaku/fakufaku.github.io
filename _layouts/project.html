@@ -16,9 +16,22 @@ layout: default
 <div class='full' style='background: #f5f5f5'>
   <div class='row'>
     <div class='large-4 columns'>
-        <div class='images'>
-          <div class='image'><img alt="" src="{{site.url}}/{{page.images}}" /></div>
-        </div>
+      <div class='images'>
+        <div class='image'><img alt="" src="{{site.url}}/{{page.images}}" /></div>
+      </div>
+      <div id=bio>
+        <div class='spacing'></div>
+        <ul class='socials'>
+          {% for link in page.links %}
+          <li>
+            <a href={{ link.url }}>
+              <i class='fa fa-{{ link.icon }}'></i>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+        <div class='spacing'></div>
+      </div>
     </div>
     <div class='large-8 columns'>
       <div class='mod modBlogPost big'>

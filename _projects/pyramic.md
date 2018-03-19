@@ -1,8 +1,8 @@
 ---
-title: Pyramic compact microphone array
+title: Pyramic Microphone Array
 layout: project
-tagline: "A compact array with 48 MEMS microphones"
-description: "It is a very cool design."
+tagline: "A compact array with 48 channels."
+description: "A flexible design using MEMS microphones and an FPGA platform."
 klass: hardware
 images: images/pyramic.png
 hidden: true

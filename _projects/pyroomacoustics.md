@@ -1,16 +1,13 @@
 ---
-title: Sparse fast Hadamard transform
+title: Pyroomacoustics
 layout: project
-tagline: "A fast Hadamard transform for sparse data"
-description: "I can describe something of the algorithm here."
-klass: algorithms
-permalink: /sparse_hadamard
-images: images/sparse_hadamard.png
-links:
-  - icon: file
-    url: http://ieeexplore.ieee.org/document/7042831/
-  - icon: github
-    url: https://github.com/LCAV/SparseFHT
+tagline: "Fast image sources and array processing algorithms"
+description: "A python package providing fast image source model for shoebox and polygonal rooms."
+klass: software
+permalink: /pyroomacoustics
+images: images/pyroomacoustics.png
+pdf: https://arxiv.org/abs/1710.04196
+repo: https://github.com/LCAV/pyroomacoustics
 hidden: true
 ---
 
