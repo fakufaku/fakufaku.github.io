@@ -1,24 +1,39 @@
 work:
-  - company: EPFL
-    division: Audiovisual Communications Laboratory
-    url: http://lcav.epfl.ch
-    location: Lausanne, Switzerland
-    dates: September 2012 -- Present
-    position: Research Assistant
-    description: Investigating how strucutral aspects of sound propagation, the echoes in a room for example, can provide more robust and efficient algorithms for problems such as beamforming, direction of arrival, or source separation. In a different line of work, I apply techniques from information theory and theoretical computer science to provide low-complexity algorithms for signal processing problems.
+  - company: Tokyo Metropolitan University
+    division: Ono Laboratory
+    location: Tokyo, Japan
+    dates: October 2017 - Present
+    position: Postdoctoral Fellow
+    description: We use sound-to-light conversion sensors to easily build large sound sensing arrays. Applications are in conventional audio processing and large scale monitoring.
 
   - company: SAFECAST Japan
     url: http://lcav.epfl.ch
     location: Tokyo, Japan
-    dates: March 2011 -- Present
+    dates: March 2011 - Present
     position: bGeigie dude
     description: Volunteer, designing, manufacturing and writing firmware for car-borne geo-tagged radiation measurement devices as part of a grass-root initiative to monitor fallout from the Fukushima Dai-ichi triple meltdown of March 2011. So far, 15 million measurement points have been collected using this system.
+
+  - company: EPFL
+    division: Audiovisual Communications Laboratory
+    url: http://lcav.epfl.ch
+    location: Lausanne, Switzerland
+    dates: April 2017 - September 2017
+    position: Postdoctoral Researcher
+    description: Supervision of students. Prospecting data providers and participants for the Data Jam Days 2017 event at EPFL. Research and experiments in array audio processing.
+
+  - company: EPFL
+    division: Audiovisual Communications Laboratory
+    url: http://lcav.epfl.ch
+    location: Lausanne, Switzerland
+    dates: September 2012 - March 2017
+    position: Research Assistant
+    description: Investigating how strucutral aspects of sound propagation, the echoes in a room for example, can provide more robust and efficient algorithms for problems such as beamforming, direction of arrival, or source separation. In a different line of work, I apply techniques from information theory and theoretical computer science to provide low-complexity algorithms for signal processing problems.
 
   - company: NEC Corporation
     division: Media & Information Processing Laboratory
     url: http://www.nec.com/
     location: Kawasaki, Japan
-    dates: January 2011 -- August 2012
+    dates: January 2011 - August 2012
     position: Temporary Research Staff
     description: Development of new algorithms for single-microphone speech denoising techniques based on spectral subtraction for application in consumer electronics. Specifically, speech harmonics preservation, DCT-based spectral subtraction, wind noise suppression.
 
@@ -51,6 +66,8 @@ education:
   - institution: EPFL
     location: Lausanne, Switzerland
     degree: Ph.D. in Signal Processing
+    thesis: Rake, Peel, Sketch - The Signal Processing Pipeline Revisited
+    thesis_url: https://infoscience.epfl.ch/record/227937/files/EPFL_TH7651.pdf
     year: 2017
   - institution: EPFL
     location: Lausanne, Switzerland
@@ -75,7 +92,7 @@ languages:
   - language: English
     level: Fluent
   - language: Japanese
-    level: Fluent conversation
+    level: Fluent
   - language: German
     level: Conversational
   - language: Swedish
