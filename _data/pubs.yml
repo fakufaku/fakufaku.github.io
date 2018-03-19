@@ -39,10 +39,79 @@ journal:
 
 conference:
   - authors:
+    - Gilles Baechler
+    - Frederike Dümbgen
+    - Golnooshsadat Elhami
+    - Miranda Krekovic
+    - Robin Scheibler
+    - Adam James Scholefield
+    - Martin Vetterli
+    title: Combining Range and Direction for Improved Localization
+    booktitle: Proc. IEEE
+    location: Calgary, CA
+    year: 2018
+    pdf: https://infoscience.epfl.ch/record/253298/files/icassp2018.pdf?version=1
+
+  - authors:
+    - R. Scheibler
+    - D. Di Carlo
+    - A. Deleforge
+    - I. Dokmanić
+    title: "Separake: Source Separation with a Little Help From Echoes"
+    booktitle: Proc. IEEE
+    location: Calgary, CA
+    year: 2018
+    pdf: https://arxiv.org/pdf/1711.06805
+    code: https://github.com/fakufaku/separake
+
+  - authors:
+    - R. Scheibler
+    - E. Bezzam
+    - I. Dokmanić
+    title: "Pyroomacoustics: A Python package for audio room simulations and array processing algorithms"
+    booktitle: Proc. IEEE
+    location: Calgary, CA
+    year: 2018
+    pdf: https://arxiv.org/pdf/1710.04196.pdf
+    code: https://github.com/LCAV/pyroomacoustics
+
+  - authors:
+    - E. Bezzam
+    - R. Scheibler
+    - J. Azcarreta Ortiz 
+    - H. Pan
+    - M. Simeoni
+    - R. Beuchat
+    - P. Hurley
+    - B. Bruneau
+    - C. Ferry
+    - S. Kashani
+    title: Hardware and software for reproducible research in audio array signal processing
+    booktitle: Proc. IEEE
+    location: New Orleans, LA, USA
+    year: 2017
+    pdf: https://infoscience.epfl.ch/record/233864/files/PyramicDemo.pdf
+    code: https://github.com/LCAV/easy-dsp
+    video: https://www.youtube.com/watch?v=DOca8ErbIfw
+
+  - authors:
+    - H. Pan
+    - R. Scheibler
+    - E. Bezzam
+    - I. Dokmanić
+    - M. Vetterli
+    title: "FRIDA: FRI-based DoA estimation for arbitrary array layouts"
+    booktitle: Proc. IEEE
+    location: New Orleans, LA, USA
+    year: 2017
+    pdf: https://arxiv.org/pdf/1612.00876.pdf
+    code: https://github.com/LCAV/FRIDA
+
+  - authors:
     - R. Scheibler 
     - M. Vetterli
     title: The recursive Hessian sketch for adaptive filtering
-    booltitle: Proc. IEEE
+    booktitle: Proc. IEEE
     conference: ICASSP 2016
     location: Shanghai, China
     year: 2016
@@ -163,6 +232,14 @@ patents:
     pdf: /pdf/patent_2012_US8327312B2.pdf
 
 techreps:
+
+  - authors:
+    - R. Scheibler
+    title: "Rake, Peel, Sketch: The Signal Processing Pipeline Revisited"
+    type: PhD Thesis
+    institution: LCAV, EPFL
+    year: 2017
+    pdf: https://infoscience.epfl.ch/record/227937/files/EPFL_TH7651.pdf
 
   - authors:
     - R. Scheibler
