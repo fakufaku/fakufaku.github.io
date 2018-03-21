@@ -15,64 +15,29 @@ fields:
     desc: Reproducible computations, DIY devices, and citizen measurements of radiation and Arsenic in water.
 ---
 
+<div class='full parallax' style='background-image: url({{site.url}}/images/robin_glitch.png); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+  <div class='four spacing'></div>
+  <div class='four spacing'></div>
+  <div class='four spacing'></div>
+  <div class='four spacing'></div>
+</div>
+
 <div class="four spacing"></div>
+
 
 <div class="row">
   <div class="medium-8 columns">
-    <p>
-    TLDR; I am Robin Scheibler, a researcher working more often than not on
+    <b>TL;DR I am Robin Scheibler, a researcher working more often than not on
     audio processing and stuff. I like coding and making hardware, and I like
-    it open source. Some people call me a hacker.
-
-    <p>
-    <i>Long version:</i> My name is Robin Scheibler and I am a researcher
-    focusing on data and signals.  My research interests have taken me from
-    proving theorems to literally jumping in a cold mountain lake to sample its
-    water, checking for the presence of arsenic. When I work on a problem, I
-    want to take it from the idea all the way to the implementation into a
-    physical prototype. This aspect of my personality has the happy side effect
-    of spawning collaborations across disciplines such as information theory,
-    theoretical computer science, embedded systems, biology, and the hacker
-    community at large.
-
-    <p>
-    I currently research blinky audio sensors at Tokyo Metropolitan University
-    together with Nobutaka Ono. Before that I was a PhD studen and,
-    shortly, postdoc at Martin Vetterli's laboratory at EPFL in Lausanne.
-    During my time there, I investigated how structural aspects of sound
-    propagation, the echoes in a room for example, can provide more robust and
-    efficient algorithms for problems such as beamforming, direction of arrival, or
-    source separation. In a different line of work, I apply techniques from
-    information theory and theoretical computer science to provide low-complexity
-    algorithms for signal processing problems. 
-
-    <p>
-    Before that, and in reverse chronological order, I was a researcher at NEC
-    Corporation in Tokyo, at IBM Research in Z\"urich, 
-
-    <p>
-    He received the B.Sc. and M.Sc. in Communications Systems from EPFL in
-    2009. Never longer than two years at a time in Lausanne, Robin visited
-    Stockholm as an exchange student, spent a year at NEC Corporation in Tokyo,
-    and wrote his master thesis at IBM Research, Zürich.
-
-    <p>
-    He had returned to Tokyo when the Great Tohoku Earthquake and Tsunami of
-    March 2011 struck and crippled the Fukushima Dai-ichi Nuclear power plant.
-    In the wake of the disaster, Robin joined Safecast to develop its first
-    mobile radiation sensor system. The system was ultimately used to provide
-    the most extensive radiation measurement database available today.
-
-    <p>
-    He continues to be active in environmental monitoring through the Biodesign
-    for the Real-World project.
-
+    it open source. Some people call me a hacker.</b>
   </div>
   <div class="medium-4 columns">
     <div id="bio">
-      <img src="images/robin_portrait.jpg" class="img-circle"><br>
-
-      <div class='spacing'></div>
       <ul class='socials'>
         {% for social in site.socials %}
         <li>
@@ -130,7 +95,7 @@ fields:
   </div>
 </div>
 
-<div class='full' style='background: #f5f5f5'>
+<div class='full' style='background: #fafafa'>
   <div class='row'>
     <div class='large-12 columns'>
       {% include section-header.html title="My recent posts" %}
@@ -158,7 +123,7 @@ fields:
           {% endfor %}
           <div class='content'>
             <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
-            <h4><a href="#">{{post.title}}</a></h4>
+            <h4><a href="{{post.url}}">{{post.title}}</a></h4>
             <p>{{post.excerpt}}</p>
             <!--
               <div class="tags">

@@ -1,0 +1,32 @@
+---
+layout: default
+section_id: about
+title: Robin Scheibler
+---
+<div class="two spacing"></div>
+
+<div class="row">
+  <div class="medium-8 columns">
+    {% capture my_include %}{% include about.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </div>
+  <div class="medium-4 columns">
+    <div id="bio">
+      <img src="images/robin_portrait.jpg" class="img-circle"><br>
+
+      <div class='spacing'></div>
+      <ul class='socials'>
+        {% for social in site.socials %}
+        <li>
+          <a href={{ social.url }}>
+            <i class='fa fa-{{ social.icon }}'></i>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+      <div class='spacing'></div>
+    </div>
+  </div>
+</div>
+
+<div class="four spacing"></div>

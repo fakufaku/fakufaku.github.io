@@ -1,5 +1,5 @@
 ---
-title: FRIDA -- Robust DOA Finding
+title: "FRIDA: Robust DOA Finding"
 layout: project
 tagline: "Finite Rate of Innovation - Direction of Arrival"
 description: "A robust parametric DOA finding algorithm."

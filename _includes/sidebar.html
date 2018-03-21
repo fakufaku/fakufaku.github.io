@@ -1,88 +1,15 @@
 <div class='links'>
   <h3>Archives</h3>
-  <ul>
-    <li>
-      <a href='#'>December 2011</a>
-      <span>(2)</span>
-    </li>
-    <li>
-      <a href='#'>November 2011</a>
-      <span>(4)</span>
-    </li>
-    <li>
-      <a href='#'>October 2011</a>
-      <span>(1)</span>
-    </li>
-    <li>
-      <a href='#'>September 2011</a>
-      <span>(3)</span>
-    </li>
-    <li>
-      <a href='#'>July 2011</a>
-      <span>(5)</span>
-    </li>
-    <li>
-      <a href='#'>June 2011</a>
-      <span>(3)</span>
-    </li>
-    <li>
-      <a href='#'>May 2011</a>
-      <span>(6)</span>
-    </li>
-    <li>
-      <a href='#'>April 2011</a>
-      <span>(1)</span>
-    </li>
-  </ul>
+  {% for post in site.posts %}
+       {% assign currentDate = post.date | date: "%Y" %}
+       {% if currentDate != myDate %}
+       {% unless forloop.first %}</ul></div>{% endunless %}
+           <div class='links'>
+           <h4>{{ currentDate }}</h4>
+           <ul>
+           {% assign myDate = currentDate %}
+       {% endif %}
+       <li><a href="{{ post.url }}"><span>{{ post.date | date: "%B %-d" }}</span> - {{ post.title }}</a></li>
+       {% if forloop.last %}</ul></div>{% endif %}
+   {% endfor %}
 </div>
-<div class='links'>
-  <h3>Tags</h3>
-    <ul>
-      {% for tags in page.tags %}
-        <li>{{ tags }}</li>
-      {% endfor %}
-    </ul>
-</div>
-<div class='links'>
-  <h3>Recent Posts</h3>
-  <ul>
-    <li>
-      <a href='#'>Great quality means a lot to us</a>
-    </li>
-    <li>
-      <a href='#'>Why you should learn CSS 3</a>
-    </li>
-    <li>
-      <a href='#'>5 steps to a more successful WordPress theme</a>
-    </li>
-    <li>
-      <a href='#'>HTML 5 in real world</a>
-    </li>
-    <li>
-      <a href='#'>Javascript debugging</a>
-    </li>
-  </ul>
-</div>
-<!-- <div class='links'>
-  <h3>Tags</h3>
-  <ul>
-    <li>
-      <a href='#'>Logo</a>
-    </li>
-    <li>
-      <a href='#'>Development</a>
-    </li>
-    <li>
-      <a href='#'>Design</a>
-    </li>
-    <li>
-      <a href='#'>Photography</a>
-    </li>
-    <li>
-      <a href='#'>News</a>
-    </li>
-    <li>
-      <a href='#'>Javascript</a>
-    </li>
-  </ul>
-</div> -->
