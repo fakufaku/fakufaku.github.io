@@ -3,6 +3,7 @@ title: Biodesign for the Real-World
 layout: project
 tagline: "Prototyping bacteria-based Arsenic detection sensors"
 description: "We explore prototypes of hardware, software, and wetware in the design of a practical water quality sensors."
+permalink: /biodesign
 klass: hardware
 images: images/biodesign.png
 links:

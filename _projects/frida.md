@@ -4,6 +4,7 @@ layout: project
 tagline: "Finite Rate of Innovation - Direction of Arrival"
 description: "A robust parametric DOA finding algorithm."
 klass: audio
+permalink: /frida
 images: images/frida.png
 hidden: true
 ---

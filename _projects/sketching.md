@@ -4,6 +4,7 @@ layout: project
 tagline: "Sketching Adaptive Filter"
 description: "Recursive Least Squares with less operations."
 klass: algorithms
+permalink: /sketching
 images: images/sketchrls.png
 hidden: true
 ---

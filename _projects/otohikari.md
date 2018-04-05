@@ -3,6 +3,7 @@ title: "Blinkies: Light-to-Sound Conversion Sensors"
 layout: project
 tagline: "Large scale audio sensing made possible"
 description: "We use distributed devices converting sound to light and acquire the signals using a camera."
+permalink: /otohikari
 klass: audio
 images: images/blinky.png
 hidden: true

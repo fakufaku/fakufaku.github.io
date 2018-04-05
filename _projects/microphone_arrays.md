@@ -4,6 +4,7 @@ layout: project
 tagline: "MEMS Compact Microphone Arrays"
 description: "I like to build microphone arrays. Now I have a small collection."
 klass: hardware
+permalink: /microphone_arrays
 images: images/pyramic.png
 links:
   - icon: github

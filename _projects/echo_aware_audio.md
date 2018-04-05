@@ -4,6 +4,7 @@ layout: project
 tagline: "Echoes are our friends"
 description: "Like in human audition, early echoes improve the output from audio processing algorithms."
 klass: audio
+permalink: /raking
 images: images/rake.png
 links:
   - icon: book

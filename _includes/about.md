@@ -11,7 +11,7 @@ the way to the implementation into a [physical prototype](/microphone_arrays).
 
 Currently, I live in [Tokyo](http://www.comp.sd.tmu.ac.jp/onolab/onono-e.html)
 and work on the theory and applications of large scale ad hoc arrays of
-acoustic sensors. I use small [sound-to-light conversion sensors](/blinky) and
+acoustic sensors. I use small [sound-to-light conversion sensors](/otohikari) and
 film them with a camera.
 
 I am the main contributor to [Pyroomacoustics](https://github.com/LCAV/pyroomacoustics),
