@@ -39,13 +39,13 @@ journal:
 
 conference:
   - authors:
-    - Gilles Baechler
-    - Frederike Dümbgen
-    - Golnooshsadat Elhami
-    - Miranda Krekovic
-    - Robin Scheibler
-    - Adam James Scholefield
-    - Martin Vetterli
+    - G. Baechler
+    - F. Dümbgen
+    - G. Elhami
+    - M. Krekovic
+    - R. Scheibler
+    - A. J. Scholefield
+    - M. Vetterli
     title: Combining Range and Direction for Improved Localization
     booktitle: Proc. IEEE
     location: Calgary, CA
