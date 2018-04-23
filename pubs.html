@@ -87,6 +87,16 @@ section_id: pubs
         <a href="{{ paper.slides }}"> slides </a>
       </span>
       {% endif %}
+      {% if paper.poster %}
+      <span class="secondary label">
+        <a href="{{ paper.poster }}"> poster </a>
+      </span>
+      {% endif %}
+      {% if paper.video %}
+      <span class="success label">
+        <a href="{{ paper.video }}"> video </a>
+      </span>
+      {% endif %}
     </div>
   </div>
   <div class='one spacing'></div>
