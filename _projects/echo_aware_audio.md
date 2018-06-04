@@ -87,86 +87,86 @@ audio {
   <tr>
   <td>Anechoic</td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_anechoic_mu_spkr_mix_fq_sample3_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_anechoic_mu_spkr_mix_fq_sample3_fq_sample2.wav"><a>play</a></audio></td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_anechoic_mu_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_anechoic_mu_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_anechoic_mu_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_anechoic_mu_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_anechoic_em_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_anechoic_em_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_anechoic_em_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_anechoic_em_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_anechoic_mu_univ_sep_fq_sample2.wav"><a>play</a></audio></td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_anechoic_mu_univ_sep_fq_sample3.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_anechoic_mu_univ_sep_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_anechoic_mu_univ_sep_fq_sample3.wav"><a>play</a></audio></td>
   </tr>
 
   <tr>
   <td>Learn</td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_learn_mu_spkr_mix_fq_sample3_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_learn_mu_spkr_mix_fq_sample3_fq_sample2.wav"><a>play</a></audio></td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_learn_mu_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_learn_mu_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_learn_mu_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_learn_mu_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_learn_em_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_learn_em_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_learn_em_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_learn_em_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_learn_mu_univ_sep_fq_sample2.wav"><a>play</a></audio></td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_learn_mu_univ_sep_fq_sample3.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_learn_mu_univ_sep_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_learn_mu_univ_sep_fq_sample3.wav"><a>play</a></audio></td>
   </tr>
   
   <tr>
   <td>0 Echoes</td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_learn_mu_spkr_mix_fq_sample3_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_learn_mu_spkr_mix_fq_sample3_fq_sample2.wav"><a>play</a></audio></td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_0echoes_mu_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_0echoes_mu_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_0echoes_mu_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_0echoes_mu_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_0echoes_em_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_0echoes_em_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_0echoes_em_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_0echoes_em_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_0echoes_mu_univ_sep_fq_sample2.wav"><a>play</a></audio></td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_0echoes_mu_univ_sep_fq_sample3.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_0echoes_mu_univ_sep_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_0echoes_mu_univ_sep_fq_sample3.wav"><a>play</a></audio></td>
   </tr>
   
   <tr>
   <td>1 Echoes</td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_learn_mu_spkr_mix_fq_sample3_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_learn_mu_spkr_mix_fq_sample3_fq_sample2.wav"><a>play</a></audio></td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_1echoes_mu_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_1echoes_mu_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_1echoes_mu_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_1echoes_mu_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_1echoes_em_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_1echoes_em_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_1echoes_em_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_1echoes_em_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_1echoes_mu_univ_sep_fq_sample2.wav"><a>play</a></audio></td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_1echoes_mu_univ_sep_fq_sample3.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_1echoes_mu_univ_sep_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_1echoes_mu_univ_sep_fq_sample3.wav"><a>play</a></audio></td>
   </tr>
 
   <tr>
   <td>2 Echoes</td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_anechoic_em_spkr_mix_fq_sample3_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_anechoic_em_spkr_mix_fq_sample3_fq_sample2.wav"><a>play</a></audio></td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_2echoes_mu_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_2echoes_mu_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_2echoes_mu_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_2echoes_mu_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_2echoes_em_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_2echoes_em_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_2echoes_em_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_2echoes_em_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_2echoes_mu_univ_sep_fq_sample2.wav"><a>play</a></audio></td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_2echoes_mu_univ_sep_fq_sample3.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_2echoes_mu_univ_sep_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_2echoes_mu_univ_sep_fq_sample3.wav"><a>play</a></audio></td>
   </tr>
 
   <tr>
   <td>3 Echoes</td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_learn_mu_univ_mix_fq_sample3_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_learn_mu_univ_mix_fq_sample3_fq_sample2.wav"><a>play</a></audio></td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_3echoes_mu_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_3echoes_mu_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_3echoes_mu_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_3echoes_mu_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_3echoes_em_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_3echoes_em_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_3echoes_em_spkr_sep_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_3echoes_em_spkr_sep_fq_sample3.wav"><a>play</a></audio></td>
 
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_3echoes_mu_univ_sep_fq_sample2.wav"><a>play</a></audio></td>
-  <td><audio controls="controls" type="audio/wav" src="/assets/samples/separake_3echoes_mu_univ_sep_fq_sample3.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_3echoes_mu_univ_sep_fq_sample2.wav"><a>play</a></audio></td>
+  <td><audio controls="controls" type="audio/wav" src="/assets/icassp2018/samples/separake_3echoes_mu_univ_sep_fq_sample3.wav"><a>play</a></audio></td>
   </tr>
 </table>

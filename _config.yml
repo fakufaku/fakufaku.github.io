@@ -33,3 +33,5 @@ socials:
 collections:
   projects:
     output: true
+  pages:
+    output: true
