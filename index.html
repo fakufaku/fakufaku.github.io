@@ -15,29 +15,30 @@ fields:
     desc: Reproducible computations, DIY devices, and citizen measurements of radiation and Arsenic in water.
 ---
 
-<div class='full parallax' style='background-image: url({{site.url}}/images/robin_glitch.png); color: #fff;'>
-  <div class='row'>
-    <div class='large-12 columns'>
-    </div>
-  </div>
-  <div class='four spacing'></div>
-  <div class='four spacing'></div>
-  <div class='four spacing'></div>
-  <div class='four spacing'></div>
-  <div class='four spacing'></div>
-</div>
-
-<div class="four spacing"></div>
-
+<div class="two spacing"></div>
 
 <div class="row">
   <div class="medium-8 columns">
-    <b>TL;DR I am Robin Scheibler, a researcher working more often than not on
-    audio processing and stuff. I like coding and making hardware, and I like
-    it open source. Some people call me a hacker.</b>
+    <p><b>{{ site.tldr_bio | markdownify }}</b>
+
+    <h4> News: </h4>
+    {% for news in site.data.news %}
+    <div class='row'>
+      <div class='small-2 columns'>
+        <b>{{ news.date | date: '%Y-%m-%d' }}</b>
+      </div>
+      <div class='small-10 columns'>
+        {{ news.text | markdownify }}
+      </div>
+    </div>
+    <div class='one spacing'></div>
+    {% endfor %}
   </div>
   <div class="medium-4 columns">
     <div id="bio">
+      <img src="images/robin_portrait.jpg" class="img-circle"><br>
+
+      <div class='spacing'></div>
       <ul class='socials'>
         {% for social in site.socials %}
         <li>

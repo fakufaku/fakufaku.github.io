@@ -39,6 +39,33 @@ journal:
 
 conference:
   - authors:
+    - R. Scheibler
+    - N. Ono
+    title: "Multi-modal blind source separation with microphones and blinkies"
+    booktitle: Proc. IEEE ICASSP
+    location: Brighton, UK
+    year: 2019
+
+  - authors:
+    - R. Scheibler
+    - D. Horiike
+    - N. Ono
+    title: "Blinkies: Sound-to-light conversion sensors and their application to speech enhancement and sound source localization"
+    booktitle: Proc. IEEE APSIPA
+    location: Honolulu, HI, USA
+    year: 2018
+
+  - authors:
+    - R. Scheibler
+    - J. Azcarreta
+    - R. Beuchat
+    - C. Ferry
+    title: "Pyramic: Full Stack Open Microphone Array Architecture and Dataset"
+    booktitle: Proc. IEEE IWAENC
+    location: Tokyo, JP
+    year: 2018
+
+  - authors:
     - G. Baechler
     - F. Dümbgen
     - G. Elhami
@@ -47,7 +74,7 @@ conference:
     - A. J. Scholefield
     - M. Vetterli
     title: Combining Range and Direction for Improved Localization
-    booktitle: Proc. IEEE
+    booktitle: Proc. IEEE ICASSP
     location: Calgary, CA
     year: 2018
     pdf: https://infoscience.epfl.ch/record/253298/files/icassp2018.pdf?version=1

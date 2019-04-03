@@ -7,6 +7,8 @@ title: Robin Scheibler
 
 <div class="row">
   <div class="medium-8 columns">
+    <p><b>{{ site.tldr_bio | markdownify }}</b>
+
     {% capture my_include %}{% include about.md %}{% endcapture %}
     {{ my_include | markdownify }}
   </div>

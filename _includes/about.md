@@ -1,7 +1,3 @@
-**TL;DR I am Robin Scheibler, a researcher working more often than not on
-audio processing and stuff. I like coding and making hardware, and I like
-it open source. Some people call me a hacker.**
-
 _Long version:_ My name is Robin Scheibler and I am a researcher
 focusing on data and signals.  My research interests have taken me from
 [proving theorems](/sparse_hadamard) to literally jumping in a cold

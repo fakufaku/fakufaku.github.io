@@ -4,6 +4,11 @@ email: robin.scheibler@epfl.ch
 description: > # this means to ignore newlines until "baseurl:"
   My name is Robin Scheibler and this is my site. You can find stuff about
   the research and projects I do.
+tldr_bio: >
+  TL;DR &mdash; I am Robin Scheibler, a researcher at
+  [Tokyo Metropolitan University](http://www.comp.sd.tmu.ac.jp/onolab/index-e.html)
+  working more often than not on audio processing and stuff.
+  I like coding and making hardware, and I like it open source.
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: fakufakurevenge
