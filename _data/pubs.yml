@@ -45,6 +45,7 @@ conference:
     booktitle: Proc. IEEE ICASSP
     location: Brighton, UK
     year: 2019
+    code: https://github.com/onolab-tmu/blinky-iva
 
   - authors:
     - R. Scheibler
@@ -54,6 +55,9 @@ conference:
     booktitle: Proc. IEEE APSIPA
     location: Honolulu, HI, USA
     year: 2018
+    pdf: http://www.apsipa.org/proceedings/2018/pdfs/0001899.pdf
+    poster: /pdf/poster_2018_apsipa_blinkies.pdf
+    code: https://github.com/onolab-tmu/otohikari
 
   - authors:
     - R. Scheibler
@@ -64,6 +68,9 @@ conference:
     booktitle: Proc. IEEE IWAENC
     location: Tokyo, JP
     year: 2018
+    pdf: /pdf/conf_2018_iwaenc_pyramic.pdf
+    code: https://github.com/LCAV/Pyramic
+    poster: /pdf/poster_2018_iwaenc_pyramic.pdf
 
   - authors:
     - G. Baechler
@@ -212,20 +219,6 @@ conference:
     year: 2010
     pdf: /pdf/conf_2010_ibm_pcht_cacs_proc.pdf
 
-  - authors:
-    - R. Scheibler
-    - J. Okello
-    - K. Seki
-    - T. Kobori
-    - M. Ikekawa
-    title: Interference Mitigation for WCDMA using QR Decomposition and a CORDIC-based Reconfigurable Systolic Array
-    bootitle: IEICE Tech. Rep.
-    volume: 107
-    number: 452, SR2007-73
-    pages: 43 &ndash; 48
-    year: 2008
-    pdf: /pdf/conf_2008_nec_corsa.pdf
-
 patents:
 
   - authors:
@@ -266,7 +259,7 @@ patents:
     year: 2012
     pdf: /pdf/patent_2012_US8327312B2.pdf
 
-techreps:
+thesis:
 
   - authors:
     - R. Scheibler
@@ -284,6 +277,70 @@ techreps:
     year: 2009
     pdf: /pdf/tech_2009_master_thesis.pdf
 
+techreps:
+
+  - authors:
+    - R. Scheibler
+    - N. Ono
+    title: "Multimodal Blind Source Separation using Microphones and Sound-to-light Conversion Devices \"Blinkies\""
+    type: IEICE Tech. Rep.
+    institution: "vol. 118, no. 495, EA2018 &ndash; 143, pp. 257 &ndash; 262"
+    year: 2019
+
+  - authors:
+    - Y. Oishi
+    - J.-C. Zhang
+    - Y. Yamamoto
+    - F. Saze
+    - H. Moriyama
+    - R. Scheibler
+    - Y. Wakabayashi
+    - N. Ono
+    title: "Study of acoustic scene analysis using sound-to-light conversion device \"Blinky\""
+    type: IEICE Tech. Rep.
+    institution: "vol. 118, no. 495, EA2018-142, pp. 251 &ndash; 256"
+    year: 2019
+
+  - authors:
+    - R. Scheibler
+    - D. Horiike
+    - N. Ono
+    title: "Sound Source Localization with a Large Number of Blinkies"
+    type: Proc. Acoustical Society of Japan
+    institution: Fall Meeting
+    year: 2018
+
+  - authors:
+    - D. Horiike
+    - R. Scheibler
+    - Y. Wakabayashi
+    - N. Ono
+    title: "Theory and experiment of acoustic power separation using sound-to-light conversion device blinky and non-negative matrix factorization"
+    type: Proc. Acoustical Society of Japan
+    institution: Fall Meeting
+    year: 2018
+
+  - authors:
+    - T. Shinohara
+    - Y. Wakabayashi
+    - R. Scheibler
+    - N. Ono
+    - N. Aizawa
+    - S. Harada
+    - H. Nakagawa
+    title: "Sound-based Vehicle Counting Using Neural Network"
+    type: Proc. Acoustical Society of Japan
+    institution: Fall Meeting
+    year: 2018
+
+  - authors:
+    - R. Scheibler
+    - N. Ono
+    title: "Audio processing with ad-hoc array of blinkies and a camera"
+    type: Proc. Acoustical Society of Japan
+    institution: Spring Meeting
+    year: 2018
+
   - authors: 
     - R. Scheibler
     title: "Ranging in IR-UWB Networks II: Modeling of the Synchronization Error and Applications to Maximum Likelihood Localization"
@@ -299,6 +356,18 @@ techreps:
     institution: LCA2, EPFL
     year: 2008
     pdf: /pdf/tech_2008_epfl_opt_proj_master3.pdf
+
+  - authors:
+    - R. Scheibler
+    - J. Okello
+    - K. Seki
+    - T. Kobori
+    - M. Ikekawa
+    title: Interference Mitigation for WCDMA using QR Decomposition and a CORDIC-based Reconfigurable Systolic Array
+    type: IEICE Tech. Rep.
+    institution: "vol. 107, no. 452, SR2007-73, pp. 43 &ndash; 48"
+    year: 2008
+    pdf: /pdf/conf_2008_nec_corsa.pdf
 
   - authors:
     - R. Scheibler

@@ -22,7 +22,7 @@ fields:
     <p><b>{{ site.tldr_bio | markdownify }}</b>
 
     <h4> News: </h4>
-    {% for news in site.data.news %}
+    {% for news in site.data.news limit:5 %}
     <div class='row'>
       <div class='small-2 columns'>
         <b>{{ news.date | date: '%Y-%m-%d' }}</b>
@@ -31,7 +31,6 @@ fields:
         {{ news.text | markdownify }}
       </div>
     </div>
-    <div class='one spacing'></div>
     {% endfor %}
   </div>
   <div class="medium-4 columns">

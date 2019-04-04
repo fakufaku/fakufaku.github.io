@@ -103,27 +103,23 @@ skills:
     items:
       - Signal processing,
       - Optimization,
-      - Algorithm design,
-      - Fourier and wavelet transforms,
-      - Sparse FFT,
-      - Wireless communications,
+      - Algorithms,
+      - Fourier,
       - Embedded systems,
       - Sensor networks,
-      - Simulation of communication systems,
       - Stochastic modeling,
       - Probability theory,
       - Information theory
 
   - name: Programming
     items:
-      - C/C++,
       - Python,
+      - C,
+      - C++,
       - MATLAB,
-      - Java,
       - Latex,
       - Eagle CAD,
-      - git,
-      - phabricator
+      - git
 
   - name: Operating Systems
     items:

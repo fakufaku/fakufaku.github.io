@@ -29,6 +29,8 @@
   border-radius: 50%;
   display: block;
   margin: 0 auto;
+  max-width: 80%;
+  height: auto;
 }
 #bio ul.socials li {
   display: inline-block;

@@ -104,6 +104,34 @@ section_id: pubs
   <div class='three spacing'></div>
 </div>
 
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Thesis" %}
+      <div class='spacing'></div>
+    </div>
+  </div>
+  {% for paper in site.data.pubs.thesis %}
+  <div class='row'>
+    <div class='large-10 columns'>
+      {% for author in paper.authors %}
+      {{ author}}, 
+      {% endfor %}
+      <i>{{ paper.title }}</i>, {{ paper.type }}, {{ paper.institution }}, {{ paper.year }}
+    </div>
+    <div class='large-2 columns'>
+      {% if paper.pdf %}
+      <span class="warning label">
+        <a href="{{ paper.pdf }}">pdf</a>
+      </span>
+      {% endif %}
+    </div>
+  </div>
+  <div class='one spacing'></div>
+  {% endfor %}
+  <div class='three spacing'></div>
+</div>
+
 <div class='full parallax' style='background-image: url(images/bicycle_patent.jpg); color: #000;'>
   <div class='row'>
     <div class='large-12 columns'>
