@@ -46,6 +46,7 @@ conference:
     location: Brighton, UK
     year: 2019
     code: https://github.com/onolab-tmu/blinky-iva
+    pdf: https://arxiv.org/pdf/1904.02334.pdf
 
   - authors:
     - R. Scheibler
