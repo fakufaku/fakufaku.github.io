@@ -47,6 +47,7 @@ conference:
     year: 2019
     code: https://github.com/onolab-tmu/blinky-iva
     pdf: https://arxiv.org/pdf/1904.02334.pdf
+    poster: /pdf/poster_2019_icassp_blinkiva.pdf
 
   - authors:
     - R. Scheibler
