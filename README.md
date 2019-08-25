@@ -31,3 +31,9 @@ For more on Jekyll, read the [documentation](http://jekyllrb.com/)
 
 Roon is Copyright (c) 2013-2015 Sam Soffes & Ghost Foundation - Released under 
 the [MIT license](LICENSE).
+
+## Serve
+
+Serve locally with
+
+    bundle exec jekyll serve

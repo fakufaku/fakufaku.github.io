@@ -1,3 +1,5 @@
+- date: 2019-08-25
+  text: "Autumn will be busy. We will present our paper [Indpendent Vector Analysis with more Microphones than Sources](https://arxiv.org/abs/1905.07880) at WASPAA in October. The [code](https://github.com/onolab-tmu/overiva/) is already available. In addition, Daiki Horiike will present \"Blink-former: Light-aided beamforming for multiple targets enhancement\" at MMSP, and Kouei Yamaoka will present \"Sub-Sample  Time  Delay Estimation via Auxiliary-Function-Based Iterative Updates\" at WASPAA too."
 - date: 2019-03-15
   text: "We presented our work on using [blinkies](/otohikari) for source separation and acoustic event detection at the [SIP symposium](https://www.ieice.org/ken/program/index.php?tgs_regid=e31ba246e18f5dad1ef9a09d03421118ad3f4f51935212302bab39e5dd5c4078&tgid=IEICE-SP&lang=) in Nagasaki."
 - date: 2019-02-03

@@ -41,6 +41,36 @@ conference:
   - authors:
     - R. Scheibler
     - N. Ono
+    title: "Independent Vector Analysis with More Microphones than Sources"
+    booktitle: Proc. WASPAA (accepted)
+    location: New Paltz, NY, USA
+    year: 2019
+    pdf: https://arxiv.org/abs/1905.07880
+    code: https://github.com/onolab-tmu/overiva
+
+  - authors:
+    - K. Yamaoka
+    - R. Scheibler
+    - Y. Wakabayashi
+    - N. Ono
+    title: "Sub-Sample  Time  Delay Estimation via Auxiliary-Function-Based Iterative Updates"
+    booktitle: Proc. WASPAA (accepted)
+    location: New Paltz, NY, USA
+    year: 2019
+
+  - authors:
+    - D. Horiike
+    - R. Scheibler
+    - Y. Wakabayashi
+    - N. Ono
+    title: "Blink-former: Light-aided beamforming for multiple targets enhancement"
+    booktitle: Proc. IEEE MMSP (accepted)
+    location: Kuala Lumpur, Malaysia
+    year: 2019
+
+  - authors:
+    - R. Scheibler
+    - N. Ono
     title: "Multi-modal blind source separation with microphones and blinkies"
     booktitle: Proc. IEEE ICASSP
     location: Brighton, UK
