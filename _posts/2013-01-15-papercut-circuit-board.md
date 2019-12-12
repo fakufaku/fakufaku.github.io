@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Papercut circuit board"
+author: Robin Scheibler
 description: "Using paper cuts to evaluate PCB size."
 tagline: Paper, scissors, PCB
 images: images/papercut_circuit.jpg

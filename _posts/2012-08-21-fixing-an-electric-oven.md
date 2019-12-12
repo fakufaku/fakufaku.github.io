@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Fixing an Electric Oven"
+author: Robin Scheibler
 description: "Electric oven convesion using Arduino"
 tagline: "Coming soon: cakes!"
 images: images/oven/oven4.jpg

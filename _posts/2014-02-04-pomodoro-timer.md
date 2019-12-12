@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Make a custom Pomodoro timer"
+author: Robin Scheibler
 description: "to boost your productivity"
 tagline: "to boost your productivity"
 images: images/pomodoro/board_assembled.jpg

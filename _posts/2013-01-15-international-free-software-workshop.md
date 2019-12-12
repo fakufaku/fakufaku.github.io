@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "International Free Software Workshop"
+author: Robin Scheibler
 description: "Call for papers"
 tagline: "Call for papers"
 ---

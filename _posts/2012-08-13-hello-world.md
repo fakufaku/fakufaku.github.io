@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hello World"
+author: Robin Scheibler
 description: "My first post using Jekyll bootstrap."
 ---
 

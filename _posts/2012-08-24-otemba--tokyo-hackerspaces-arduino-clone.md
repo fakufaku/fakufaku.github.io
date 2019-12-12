@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Otemba v1.0"
+author: Robin Scheibler
 tagline: "Tokyo Hackerspace's Arduino Clone"
 description: "An Arduino clone for breadboard prototyping, made in Japan."
 images: images/otemba/Otemba_dice.jpg
