@@ -48,7 +48,7 @@ work:
     url: http://www.nec.com/
     location: Kawasaki, Japan
     dates: January 2011 - August 2012
-    position: Temporary Research Staff
+    position: Research Engineer
     description: Development of new algorithms for single-microphone speech denoising techniques based on spectral subtraction for application in consumer electronics. Specifically, speech harmonics preservation, DCT-based spectral subtraction, wind noise suppression.
 
   - company: IBM Research &mdash; Zürich
@@ -56,7 +56,7 @@ work:
     url: http://www.zurich.ibm.com
     location: Rüschlikon, Switzerland
     dates: February 2009 - September 2010
-    position: Research Intern
+    position: Research Engineer
     description: Developed algorithms for the computation of the continuous Haar, Fourier and cosine transforms of rectilinear polygons found in IC layouts. Derived the theoretical computational complexity. Implemented the algorithms in a lithography tool and benchmarked against discrete transforms.  Investigated the sparsity of the representation of the polygons in Haar basis and its application to the pattern analysis of IC layouts. Outcome resulted in scientific articles, highly optimized software and patents filing.  
 
   - company: NEC Corporation
@@ -116,14 +116,12 @@ skills:
   - name: Expertise
     items:
       - Signal processing,
+      - Multi-channel audio processing
+      - Blind source separation
       - Optimization,
       - Algorithms,
       - Fourier,
       - Embedded systems,
-      - Sensor networks,
-      - Stochastic modeling,
-      - Probability theory,
-      - Information theory
 
   - name: Programming
     items:
