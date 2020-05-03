@@ -27,7 +27,8 @@ section_id: pubs
       {{ author}}, 
       {% endfor %}
       <i>{{ paper.title }}</i>, in {{ paper.journal }}, 
-      Vol. {{ paper.volume }}, Num. {{ paper.number }}, 
+      Vol. {{ paper.volume }},
+      {% if paper.number %} Num. {{ paper.number }}, {% endif %}
       pp. {{ paper.pages }}, {{ paper.year }}
     </div>
     <div class='large-2 columns'>

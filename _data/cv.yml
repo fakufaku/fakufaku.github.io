@@ -1,17 +1,31 @@
 work:
-  - company: Tokyo Metropolitan University
-    division: Ono Laboratory
+  - company: LINE Corporation
+    division: Speech Team
     location: Tokyo, Japan
-    dates: October 2017 - Present
-    position: Postdoctoral Fellow
-    description: We use sound-to-light conversion sensors to easily build large sound sensing arrays. Applications are in conventional audio processing and large scale monitoring.
+    dates: March 2020 - Present
+    position: Senior Researcher
+    description: Research and development of speech processing algorithms.
 
   - company: SAFECAST Japan
-    url: http://lcav.epfl.ch
+    url: http://safecast.org
     location: Tokyo, Japan
     dates: March 2011 - Present
     position: bGeigie dude
     description: Volunteer, designing, manufacturing and writing firmware for car-borne geo-tagged radiation measurement devices as part of a grass-root initiative to monitor fallout from the Fukushima Dai-ichi triple meltdown of March 2011. So far, 15 million measurement points have been collected using this system.
+
+  - company: Tokyo Metropolitan University
+    division: Ono Laboratory
+    location: Tokyo, Japan
+    dates: October 2019 - February 2020
+    position: Project Associate Professor
+    description: Sound-to-light conversion sensors (Blinkies), and blind source separation with many microphones.
+
+  - company: Tokyo Metropolitan University
+    division: Ono Laboratory
+    location: Tokyo, Japan
+    dates: October 2017 - September 2019
+    position: Postdoctoral Fellow
+    description: We use sound-to-light conversion sensors to easily build large sound sensing arrays. Applications are in conventional audio processing and large scale monitoring.
 
   - company: EPFL
     division: Audiovisual Communications Laboratory
