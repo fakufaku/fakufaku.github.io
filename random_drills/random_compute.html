@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      td
+      {
+        padding:0 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      var n_compute = 50;
+      var n_cols = 3;
+      var i = 0;
+      var c = 0;
+
+      // start a table
+      document.write("<table>")
+
+      // loop on the lines
+      for (i = 0 ; i < n_compute ; i++) {
+
+        // start a row
+        document.write("<tr>");
+
+        // loop on the columns
+        for (c = 0 ; c < n_cols ; c++){
+
+          // pick two numbers at random
+          op1 = Math.floor(Math.random() * 100);
+          op2 = Math.floor(Math.random() * 10);
+
+          // write the cell of the table
+          document.write("<td><h2>");
+          document.write(`<p>${op1} + ${op2} = <span style="border-bottom: 1px solid black; padding-left: 50px">&nbsp;</span>`);
+          document.write("</h2></td>");
+        }  // end of column loop
+
+        // close the row
+        document.write("</tr>");
+
+      } // end of the row loop
+
+      // close the table
+      document.write("</table>");
+    </script>
+  </body>
+</html>

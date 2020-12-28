@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      td
+      {
+        padding:0 15px;
+      }
+    </style>
+  </head>
+  <body>
+  <script>
+    var canvas_size = 40 * 20;
+    var n = 20;
+    var w = canvas_size / n;  // pixels
+    document.write(`<canvas id="myCanvas" width="${canvas_size}" height="${canvas_size}" style="border:0px solid #000000;"></canvs>`)
+
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+
+    function shuffle(arr) {
+      for (var n = 0 ; n < arr.length ; n++) {
+        pos = n + Math.floor(Math.random() * (arr.length - n));
+        var t = arr[n]
+        arr[n] = arr[pos];
+        arr[pos] = t;
+      }
+
+      return arr;
+    }
+
+    function make_2D_array(nrows, ncols, val) {
+      var arr = new Array(nrows);
+      for (var i = 0; i < arr.length; i++) {
+        arr[i] = new Array(ncols);
+        for (var c = 0 ; c < arr[i].length ; c++) {
+          arr[i][c] = val;
+        }
+      }
+      return arr;
+    }
+
+    function draw_line(x1, y1, x2, y2) {
+      ctx.moveTo(x1, y1);
+      ctx.lineTo(x2, y2);
+      ctx.stroke()
+    }
+    function draw_right(row, col) {
+      draw_line((col + 1) * w, (row) * w, (col + 1) * w, (row + 1) * w);
+    }
+
+    function draw_left(row, col) {
+      draw_line((col) * w, (row) * w, (col) * w, (row + 1) * w);
+    }
+
+    function draw_top(row, col) {
+      draw_line((col) * w, (row) * w, (col + 1) * w, (row) * w);
+    }
+
+    function draw_bottom(row, col) {
+      draw_line((col) * w, (row + 1) * w, (col + 1) * w, (row + 1) * w);
+    }
+
+    function draw_border() {
+      draw_line(1, 1, 1, canvas_size - 1);  // top
+      draw_line(w, 1, canvas_size - 1, 1);  // left
+      draw_line(1, canvas_size - 1, canvas_size - w, canvas_size - 1);  // bottom
+      draw_line(canvas_size - 1, 1, canvas_size - 1, canvas_size - 1);  // right
+    }
+
+    function draw_wall(r1, c1, r2, c2) {
+      if (r2 - r1 == 1 && c2 - c1 == 0) {
+        // move down
+        draw_bottom(r1, c1);
+      }
+      else if (r2 - r1 == -1 && c2 - c1 == 0) {
+        // move up
+        draw_top(r1, c1);
+      }
+      else if (r2 - r1 == 0 && c2 - c1 == 1) {
+        // move right
+        draw_right(r1, c1);
+      }
+      else if (r2 - r1 == 0 && c2 - c1 == -1) {
+        // move left
+        draw_left(r1, c1);
+      }
+    }
+
+    function dfs(row, col, prev_row, prev_col, visited) {
+      console.log(`${row} ${col} ${prev_row}, ${prev_col}`)
+
+      // mark current node as visited
+      visited[row][col] = true;
+
+      // visit all neighbors in a random order
+      var new_dir = shuffle([[1, 0], [-1, 0], [0, 1], [0, -1]]);
+
+      for (var el = 0 ; el < 4 ; el++) {
+        
+        // location of neighbor
+        var nr = row + new_dir[el][0];
+        var nc = col + new_dir[el][1];
+
+        if (nr < 0 || nc < 0 || nr >= visited.length || nc >= visited[0].length)
+          continue;  // skip if outside board
+
+        if (nr == prev_row && nc == prev_col)
+          continue;  // skip if previous node
+
+        if (visited[nr][nc]) {
+          // if already visited, but not previous node, draw a wall between the
+          // current node and the neighbor, and skip
+          draw_wall(row, col, nr, nc);
+          continue;
+        }
+
+        // if the neighbor has not been visited, restart the algorithm from there
+        dfs(nr, nc, row, col, visited);  // recursion from current location
+      }
+    }
+
+    var visited = make_2D_array(n, n, false);
+    dfs(0, 0, 0, -1, visited);
+    draw_border()
+
+  </script>
+  </body>
+</html>
