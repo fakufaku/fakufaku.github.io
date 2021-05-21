@@ -1,3 +1,5 @@
+- date: 2020-11-25
+  text: "I gave a high level presentation of our work on optimization for blind source separation during LINE DEV DAY 2020. Watch the [video](https://www.youtube.com/watch?v=4dqwJ_rpkPc)."
 - date: 2019-08-25
   text: "Autumn will be busy. We will present our paper [Indpendent Vector Analysis with more Microphones than Sources](https://arxiv.org/abs/1905.07880) at WASPAA in October. The [code](https://github.com/onolab-tmu/overiva/) is already available. In addition, Daiki Horiike will present \"Blink-former: Light-aided beamforming for multiple targets enhancement\" at MMSP, and Kouei Yamaoka will present \"Sub-Sample  Time  Delay Estimation via Auxiliary-Function-Based Iterative Updates\" at WASPAA too."
 - date: 2019-03-15
