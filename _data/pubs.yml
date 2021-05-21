@@ -1,6 +1,16 @@
 journal:
   - authors:
     - R. Scheibler
+    title: "Independent Vector Analysis via Log-quadratically Penalized Quadratic Minimization"
+    journal: IEEE Transactions on Signal Processing
+    volume: 69
+    pages: 2509 &ndash; 2524
+    year: 2021
+    pdf: https://arxiv.org/abs/2008.10048
+    code: https://github.com/fakufaku/auxiva-ipa
+
+  - authors:
+    - R. Scheibler
     - N. Ono
     title: "Blinkies: Open Source Sound-to-Light Conversion Sensors for Large-Scale Acoustic Sensing and Applications"
     journal: IEEE Access
@@ -51,6 +61,106 @@ journal:
 conference:
   - authors:
     - R. Scheibler
+    - M. Togami
+    title: "Refinement of Direction of Arrival Estimators by Majorization-Minimization Optimization on the Array Manifold"
+    booktitle: Proc. ICASSP
+    location: Toronto, CA
+    year: 2021
+
+  - authors:
+    - T. Nakashima
+    - R. Scheibler
+    - M. Togami
+    title: "Joint Dereverberation and Separation With Iterative Source Steering"
+    booktitle: Proc. ICASSP
+    location: Toronto, CA
+    year: 2021
+    pdf: https://arxiv.org/pdf/2102.06322.pdf
+
+  - authors:
+    - R. Scheibler
+    - M. Togami
+    title: "Surrogate Source Model Learning for Determined Source Separation"
+    booktitle: Proc. ICASSP
+    location: Toronto, CA
+    year: 2021
+    pdf: https://arxiv.org/pdf/2011.05540.pdf
+    
+  - authors:
+    - T. Kawamura
+    - N. Ono
+    - R. Scheibler
+    - Y. Wakabayashi
+    - R. Miyazaki
+    title: "Acoustic Object Canceller Using Blind Compensation for Sampling Frequency Mismatch"
+    booktitle: Proc. EUSIPCO
+    location: Amsterdam, NL
+    year: 2020
+    pdf: https://www.eurasip.org/Proceedings/Eusipco/Eusipco2020/pdfs/0000880.pdf
+
+  - authors:
+    - T. Nakashima
+    - R. Scheibler
+    - Y. Wakabayashi
+    - N. Ono
+    title: "Faster Independent Low-rank Matrix Analysis with Pairwise Updates of Demixing Vectors"
+    booktitle: Proc. EUSIPCO
+    location: Amsterdam, NL
+    year: 2020
+    pdf: https://www.eurasip.org/Proceedings/Eusipco/Eusipco2020/pdfs/0000301.pdf
+
+  - authors:
+    - M. Togami
+    - R. Scheibler
+    title: "Over-determined Speech Source Separation and Dereverberation"
+    booktitle: Proc. APSIPA
+    location: Auckland, NZ
+    year: 2020
+    pdf: http://www.apsipa.org/proceedings/2020/pdfs/0000705.pdf
+
+  - authors:
+    - D. Horiike
+    - R. Scheibler
+    - Y. Kinoshita
+    - Y. Wakabayashi
+    - N. Ono
+    title: "Energy-Based Multiple Source Localization with Blinkies"
+    booktitle: Proc. APSIPA
+    location: Auckland, NZ
+    year: 2020
+    pdf: http://www.apsipa.org/proceedings/2020/pdfs/0000443.pdf
+
+  - authors:
+    - E. Bezzam
+    - R. Scheibler
+    - C. Cadoux
+    - T. Gisselbrecht
+    title: "A Study on More Realistic Room Simulation for Far-field Keyword Spotting"
+    booktitle: Proc. APSIPA
+    location: Auckland, NZ
+    year: 2020
+    pdf: http://www.apsipa.org/proceedings/2020/pdfs/0000674.pdf
+
+  - authors:
+    - M. Togami
+    - R. Scheibler
+    title: "Sparseness-Aware DOA Estimation with Majorization Minimization"
+    booktitle: Proc. Interspeech
+    location: Shanhai, CN
+    year: 2020
+    pdf: http://www.interspeech2020.org/uploadfile/pdf/Thu-3-11-1.pdf
+
+  - authors:
+    - R. Scheibler
+    title: "Generalized Minimal Distortion Principle for Blind Source Separation"
+    booktitle: Proc. Interspeech
+    location: Shanhai, CN
+    year: 2020
+    pdf: https://isca-speech.org/archive/Interspeech_2020/pdfs/2158.pdf
+    code: https://github.com/fakufaku/2020_interspeech_gmdp
+
+  - authors:
+    - R. Scheibler
     - N. Ono
     title: "Fast Independent Vector Extraction by Iterative SINR Maximization"
     booktitle: Proc. ICASSP
@@ -88,21 +198,23 @@ conference:
     booktitle: Proc. WASPAA
     location: New Paltz, NY, USA
     year: 2019
+    pdf: /pdf/conf_2019_waspa_subsample.pdf
 
   - authors:
     - D. Horiike
     - R. Scheibler
     - Y. Wakabayashi
     - N. Ono
-    title: "Blink-former: Light-aided beamforming for multiple targets enhancement"
-    booktitle: Proc. IEEE MMSP (accepted)
+    title: "Blink-former: Light-aided Beamforming for Multiple Targets Enhancement"
+    booktitle: Proc. IEEE MMSP
     location: Kuala Lumpur, Malaysia
     year: 2019
+    pdf: https://ieeexplore.ieee.org/document/8901799
 
   - authors:
     - R. Scheibler
     - N. Ono
-    title: "Multi-modal blind source separation with microphones and blinkies"
+    title: "Multi-modal Blind Source Separation with Microphones and Blinkies"
     booktitle: Proc. IEEE ICASSP
     location: Brighton, UK
     year: 2019
