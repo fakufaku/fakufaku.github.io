@@ -77,6 +77,7 @@ conference:
     year: 2021
     pdf: https://arxiv.org/pdf/2106.01011.pdf
     code: https://github.com/fakufaku/doamm
+    poster: /pdf/poster_2021_icassp_doamm.pdf
 
   - authors:
     - T. Nakashima
@@ -96,6 +97,7 @@ conference:
     location: Toronto, CA
     year: 2021
     pdf: https://arxiv.org/pdf/2011.05540.pdf
+    poster: /pdf/poster_2021_icassp_auxivaissdnn.pdf
     
   - authors:
     - T. Kawamura
