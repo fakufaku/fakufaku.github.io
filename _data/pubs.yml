@@ -61,11 +61,22 @@ journal:
 conference:
   - authors:
     - R. Scheibler
+    - T. Komatsu
+    - M. Togami
+    title: Multichannel Separation and Classification of Sound Events
+    booktitle: Proc. EUSIPCO
+    location: Dublin, IRL
+    year: 2021
+
+  - authors:
+    - R. Scheibler
     - M. Togami
     title: "Refinement of Direction of Arrival Estimators by Majorization-Minimization Optimization on the Array Manifold"
     booktitle: Proc. ICASSP
     location: Toronto, CA
     year: 2021
+    pdf: https://arxiv.org/pdf/2106.01011.pdf
+    code: https://github.com/fakufaku/doamm
 
   - authors:
     - T. Nakashima
