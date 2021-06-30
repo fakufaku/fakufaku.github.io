@@ -159,7 +159,7 @@ conference:
     - R. Scheibler
     title: "Sparseness-Aware DOA Estimation with Majorization Minimization"
     booktitle: Proc. Interspeech
-    location: Shanhai, CN
+    location: Shanghai, CN
     year: 2020
     pdf: http://www.interspeech2020.org/uploadfile/pdf/Thu-3-11-1.pdf
 
@@ -167,7 +167,7 @@ conference:
     - R. Scheibler
     title: "Generalized Minimal Distortion Principle for Blind Source Separation"
     booktitle: Proc. Interspeech
-    location: Shanhai, CN
+    location: Shanghai, CN
     year: 2020
     pdf: https://isca-speech.org/archive/Interspeech_2020/pdfs/2158.pdf
     code: https://github.com/fakufaku/2020_interspeech_gmdp
