@@ -34,7 +34,7 @@ journal:
     code: https://github.com/LCAV/AcousticRakeReceiver
 
   - authors:
-    - R. Scheibler, 
+    - R. Scheibler 
     - S. Haghighatshoar 
     - M. Vetterli
     title: A Fast Hadamard Transform for Signals with Sub-linear Sparsity in the Transform Domain
@@ -59,6 +59,15 @@ journal:
     pdf: http://infoscience.epfl.ch/record/192799/files/journal_2013_spie_litho.pdf?version=1)
 
 conference:
+  - authors:
+    - M. Togami
+    - R. Scheibler
+    title: "Sound source localization with majorization minimization"
+    booktitle: Proc. Interspeech
+    location: Brno, CZ
+    year: 2021
+    pdf: https://www.isca-speech.org/archive/pdfs/interspeech_2021/togami21_interspeech.pdf
+
   - authors:
     - R. Scheibler
     - T. Komatsu
@@ -98,6 +107,16 @@ conference:
     year: 2021
     pdf: https://arxiv.org/pdf/2011.05540.pdf
     poster: /pdf/poster_2021_icassp_auxivaissdnn.pdf
+
+  - authors:
+    - T. Nakashima
+    - R. Scheibler
+    - Y. Wakabayashi
+    - N. Ono
+    title: "Performance evaluation of independent low-rank matrix analysis for short signals"
+    booktitle: Forum Acusticum
+    location: 
+    pdf: https://hal.archives-ouvertes.fr/hal-03235358/document
     
   - authors:
     - T. Kawamura
@@ -105,7 +124,7 @@ conference:
     - R. Scheibler
     - Y. Wakabayashi
     - R. Miyazaki
-    title: "Acoustic Object Canceller Using Blind Compensation for Sampling Frequency Mismatch"
+    title: "Acoustic object canceller using blind compensation for sampling frequency mismatch"
     booktitle: Proc. EUSIPCO
     location: Amsterdam, NL
     year: 2020
@@ -116,7 +135,7 @@ conference:
     - R. Scheibler
     - Y. Wakabayashi
     - N. Ono
-    title: "Faster Independent Low-rank Matrix Analysis with Pairwise Updates of Demixing Vectors"
+    title: "Faster independent low-rank matrix analysis with pairwise updates of demixing vectors"
     booktitle: Proc. EUSIPCO
     location: Amsterdam, NL
     year: 2020
