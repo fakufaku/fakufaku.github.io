@@ -5,10 +5,7 @@ mountain lake to [sample its water](/biodesign), checking for the presence
 of arsenic. When I work on a problem, I want to take it from the idea all
 the way to the implementation into a [physical prototype](/microphone_arrays).
 
-Currently, I live in [Tokyo](http://www.comp.sd.tmu.ac.jp/onolab/onono-e.html)
-and work on the theory and applications of large scale ad hoc arrays of
-acoustic sensors. I use small [sound-to-light conversion sensors](/otohikari) and
-film them with a camera.
+Currently, I live in [Tokyo](http://www.comp.sd.tmu.ac.jp/onolab/onono-e.html) and work on multichannel speech enhancement and blind source separation at [LINE Corporation](http://www.linecorp.com).
 
 I am the main contributor to [Pyroomacoustics](https://github.com/LCAV/pyroomacoustics),
 a Python package for room simulation and audio array processing. The
@@ -17,8 +14,10 @@ propagation between sources and microphones.
 
 I got my B.Sc., M.Sc., and Ph.D. from [EPFL](http://www.epfl.ch) in
 Switzerland. I was lucky enough to be a member of the awesome [Audiovisual
-Communications Laboratory](http://lcav.epfl.ch) from 2012 to 2017. Before
-that, I worked for NEC in Japan, and IBM Research in Switzerland.
+Communications Laboratory](http://lcav.epfl.ch) from 2012 to 2017.
+Between 2017 and 2020, I was a post-doctoral research at [Ono Laboratory](https://www.comp.sd.tmu.ac.jp/onolab/index-e.html) working on the sound-to-light sensors: [Blinkies](/otohikari).
+Before all that, I worked for NEC in Japan, and IBM Research in Switzerland.
+
 
 In my free time, I like to create electronics gadgets. I am an early
 member of SAFECAST Japan where I build mobile Geiger counters to
