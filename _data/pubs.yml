@@ -1,5 +1,18 @@
 journal:
   - authors:
+    - Y. Du
+    - R. Scheibler
+    - M. Togami
+    - K. Yoshii
+    - T. Kawahara
+    title: "Computationally-efficient overdetermined blind source separation based on iterative source steering"
+    journal: IEEE Signal Processing Letters
+    volume: 29
+    pages: 927 &ndash; 931
+    year: 2021
+    pdf: https://ieeexplore.ieee.org/abstract/document/9648020
+
+  - authors:
     - R. Scheibler
     title: "Independent Vector Analysis via Log-quadratically Penalized Quadratic Minimization"
     journal: IEEE Transactions on Signal Processing
@@ -8,6 +21,8 @@ journal:
     year: 2021
     pdf: https://arxiv.org/abs/2008.10048
     code: https://github.com/fakufaku/auxiva-ipa
+    slides: /pdf/slides_2022_icassp_ipa.pdf
+    poster: /pdf/poster_2022_icassp_ipa.pdf
 
   - authors:
     - R. Scheibler
@@ -59,6 +74,87 @@ journal:
     pdf: http://infoscience.epfl.ch/record/192799/files/journal_2013_spie_litho.pdf?version=1)
 
 conference:
+  - authors:
+    - R. Scheibler
+    - W. Zhang
+    - X. Chang
+    - S. Watanabe
+    - Y. Qian
+    title: End-to-End Multi-speaker ASR with Independent Vector Analysis
+    booktitle: Proc. SLT
+    location: Doha, QA
+    year: 2022
+    pdf: https://arxiv.org/pdf/2204.00218
+
+  - authors:
+    - R. Scheibler
+    - T. Komatsu
+    - Y. Fujita
+    - M. Hentschel
+    title: Sound Event Localization and Detection with Pre-trained Audio Spectrogram Transformer and Multichannel Separation Network
+    booktitle: DCASE Workshop
+    location: Nancy, FR
+    year: 2022
+
+  - authors:
+    - K. Saijo
+    - R. Scheibler
+    title: Spatial Loss for Unsupervised Multi-channel Source Separation
+    booktitle: Proc. Interspeech
+    location: Incheon, KR
+    year: 2022
+    pdf: https://www.isca-speech.org/archive/pdfs/interspeech_2022/saijo22b_interspeech.pdf
+
+  - authors:
+    - K. Saijo
+    - R. Scheibler
+    title: Independence-based Joint Dereverberation and Separation with Neural Source Model
+    booktitle: Proc. Interspeech
+    location: Incheon, KR
+    year: 2022
+    pdf: https://www.isca-speech.org/archive/pdfs/interspeech_2022/saijo22_interspeech.pdf
+    code: https://github.com/fakufaku/torchiva
+
+  - authors:
+    - Y.-J. Lu
+    - X. Chang
+    - C. Li
+    - W. Zhang
+    - S. Cornell
+    - Z. Ni
+    - Y. Masuyama
+    - B. Yan
+    - R. Scheibler
+    - Z.-Q. Wang
+    - Y. Tsao
+    - Y. Qian
+    - S. Watanabe
+    title: "ESPnet-SE++: Speech Enhancement for Robust Speech Recognition, Translation, and Understanding"
+    booktitle: Proc. Interspeech
+    location: Incheon, KR
+    year: 2022
+    pdf: https://www.isca-speech.org/archive/pdfs/interspeech_2022/lu22c_interspeech.pdf
+
+  - authors:
+    - R. Scheibler
+    title: SDR &mdash; Medium Rare with Fast Computations
+    booktitle: Proc. ICASSP
+    location: Singapore, SG
+    year: 2022
+    pdf: https://arxiv.org/pdf/2110.06440
+    code: https://github.com/fakufaku/sdr_medium_rare
+    slides: /pdf/slides_2022_icassp_sdr.pdf
+    poster: /pdf/poster_2022_icassp_sdr.pdf
+
+  - authors:
+    - T. Komatsu
+    - R. Scheibler
+    title: Comparison of Low Complexity Self-Attention Mechanisms for Acoustic Event Detection
+    booktitle: Proc. APSIPA
+    location: Tokyo, JP
+    year: 2021
+    pdf: http://www.apsipa.org/proceedings/2021/pdfs/0001139.pdf
+
   - authors:
     - M. Togami
     - R. Scheibler
@@ -117,6 +213,7 @@ conference:
     title: "Performance evaluation of independent low-rank matrix analysis for short signals"
     booktitle: Forum Acusticum
     location: 
+    year: 2021
     pdf: https://hal.archives-ouvertes.fr/hal-03235358/document
     
   - authors:
