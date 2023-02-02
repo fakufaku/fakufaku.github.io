@@ -95,6 +95,7 @@ conference:
     booktitle: DCASE Workshop
     location: Nancy, FR
     year: 2022
+    pdf: https://dcase.community/documents/workshop2022/proceedings/DCASE2022Workshop_Scheibler_24.pdf
 
   - authors:
     - K. Saijo
