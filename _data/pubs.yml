@@ -75,6 +75,56 @@ journal:
 
 conference:
   - authors:
+    - T. Fujimura
+    - R. Scheibler
+    title: Multi-channel Separation of Dynamic Speech and Sound Events
+    booktitle: Proc. Interspeech
+    location: Dublin, IE
+    year: 2023
+    pdf: https://www.isca-speech.org/archive/pdfs/interspeech_2023/fujimura23_interspeech.pdf
+    poster: /pdf/poster_2023_interspeech_moving.pdf
+    samples: https://fakufaku.github.io/interspeech2023-moving-iva-samples
+
+  - authors:
+    - R. Scheibler
+    - Y. Ji
+    - S.-W. Chung
+    - J. Byun
+    - S. Choe
+    - M.-S. Choi
+    title: Diffusion-based Generative Speech Source Separation
+    booktitle: Proc. ICASSP
+    location: Rhodes, GR
+    year: 2023
+    pdf: https://arxiv.org/abs/2210.17327
+    slides: /pdf/slides_2023_icassp_diffsep.pdf
+    code: https://github.com/fakufaku/diffusion-separation
+
+  - authors:
+    - Y. Fujita
+    - T. Komatsu
+    - R. Scheibler
+    - Y. Kida
+    - T. Ogawa
+    title: Neural Diarization with Non-Autoregressive Intermediate Attractors
+    booktitle: Proc. ICASSP
+    location: Rhodes, GR
+    year: 2023
+    pdf: https://arxiv.org/abs/2303.06806
+
+  - authors:
+    - T. Kawamura
+    - Y. Kinoshita
+    - N. Ono
+    - R. Scheibler
+    title: Effectiveness of Inter- and Intra-Subarray Spatial Features for Acoustic Scene Classification
+    title: Neural Diarization with Non-Autoregressive Intermediate Attractors
+    booktitle: Proc. ICASSP
+    location: Rhodes, GR
+    year: 2023
+    pdf: https://ieeexplore.ieee.org/abstract/document/10096935
+
+  - authors:
     - R. Scheibler
     - W. Zhang
     - X. Chang
@@ -85,6 +135,8 @@ conference:
     location: Doha, QA
     year: 2022
     pdf: https://arxiv.org/pdf/2204.00218
+    slides: /pdf/slides_2022_slt_ivaasr.pdf
+    poster: /pdf/poster_2023_slt_ivaasr.pdf
 
   - authors:
     - R. Scheibler
@@ -96,6 +148,7 @@ conference:
     location: Nancy, FR
     year: 2022
     pdf: https://dcase.community/documents/workshop2022/proceedings/DCASE2022Workshop_Scheibler_24.pdf
+    poster: /pdf/poster_2022_dcase_seld.pdf
 
   - authors:
     - K. Saijo
@@ -205,6 +258,7 @@ conference:
     year: 2021
     pdf: https://arxiv.org/pdf/2011.05540.pdf
     poster: /pdf/poster_2021_icassp_auxivaissdnn.pdf
+    code: https://github.com/fakufaku/torchiva
 
   - authors:
     - T. Nakashima
@@ -299,6 +353,7 @@ conference:
     year: 2020
     pdf: https://arxiv.org/abs/1910.10654
     code: https://github.com/onolab-tmu/code_2020ICASSP_five
+    samples: /icassp2020
 
   - authors:
     - R. Scheibler
@@ -364,6 +419,7 @@ conference:
     pdf: http://www.apsipa.org/proceedings/2018/pdfs/0001899.pdf
     poster: /pdf/poster_2018_apsipa_blinkies.pdf
     code: https://github.com/onolab-tmu/otohikari
+    samples: /apsipa2018
 
   - authors:
     - R. Scheibler

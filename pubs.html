@@ -52,6 +52,11 @@ section_id: pubs
         <a href="{{ paper.poster }}"> poster </a>
       </span>
       {% endif %}
+      {% if paper.samples %}
+      <span class="success label">
+        <a href="{{ paper.samples }}"> samples </a>
+      </span>
+      {% endif %}
       {% if paper.video %}
       <span class="success label">
         <a href="{{ paper.video }}"> video </a>
@@ -106,6 +111,11 @@ section_id: pubs
       {% if paper.poster %}
       <span class="secondary label">
         <a href="{{ paper.poster }}"> poster </a>
+      </span>
+      {% endif %}
+      {% if paper.samples %}
+      <span class="success label">
+        <a href="{{ paper.samples }}"> samples </a>
       </span>
       {% endif %}
       {% if paper.video %}
