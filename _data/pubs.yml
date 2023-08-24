@@ -640,6 +640,63 @@ thesis:
     pdf: /pdf/tech_2009_master_thesis.pdf
 
 techreps:
+  - authors:
+    - R. Scheibler
+    - T. Hasumi
+    - Y. Fujita
+    - T. Komatsu
+    - R. Yamamoto
+    - K. Tachibana
+    title: "Foley Sound Synthesis with a Class-conditioned Latent Diffusion Model and FAD-based post-filtering"
+    type: Proc. Acoustical Society of Japan
+    institution: Fall Meeting
+    year: 2023
+
+  - authors:
+    - T. Hasumi
+    - R. Scheibler
+    title: "IPA-based demixing filter updates of independent low-rank matrix analysis"
+    type: Proc. Acoustical Society of Japan
+    institution: Fall Meeting
+    year: 2023
+
+  - authors:
+    - R. Scheibler
+    - Y. Ji
+    - S.-W. Chung
+    - J. Byun
+    - S. Choe
+    - M.-S. Choi
+    title: Diffusion-Mixing Process for Speech Source Separation
+    type: Proc. Acoustical Society of Japan
+    institution: Spring Meeting
+    year: 2023
+
+  - authors:
+    - T. Hasumi
+    - R. Scheibler
+    title: Iterative-source-steering-based demixing filter updates of independent low-rank matrix analysis using heavy-tailed distributions
+    type: Proc. Acoustical Society of Japan
+    institution: Spring Meeting
+    year: 2023
+
+  - authors:
+    - R. Scheibler
+    - W. Zhang
+    - X. Chang
+    - S. Watanabe
+    - Y. Qian
+    title: End-to-end Automatic Speech Recognition with Independent Vector Analysis Frontend
+    type: Proc. Acoustical Society of Japan
+    institution: Fall Meeting
+    year: 2022
+
+  - authors:
+    - R. Scheibler
+    title:  A Generalized Minimal Distortion Principle to Solve the Scale Ambiguity in Blind Source Separation
+    type: Proc. Acoustical Society of Japan
+    institution: Fall Meeting
+    year: 2020
 
   - authors:
     - R. Scheibler
