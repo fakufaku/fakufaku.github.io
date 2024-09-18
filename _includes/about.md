@@ -5,7 +5,14 @@ mountain lake to [sample its water](/biodesign), checking for the presence
 of arsenic. When I work on a problem, I want to take it from the idea all
 the way to the implementation into a [physical prototype](/microphone_arrays).
 
-Currently, I live in [Tokyo](http://www.comp.sd.tmu.ac.jp/onolab/onono-e.html) and work on multichannel speech enhancement and blind source separation at [LINE Corporation](http://www.linecorp.com).
+Currently, I live in [Tokyo](https://en.wikipedia.org/wiki/Tokyo)
+and work at [Google Deepmind](https://deepmind.google/) on
+neural audio processing for enhancement and separation.
+
+Before that I worked on diffusion-based speech
+[enhancement](https://www.isca-archive.org/interspeech_2024/scheibler24_interspeech.html)
+and [separation](https://arxiv.org/abs/2210.17327), and [blind source separation](https://arxiv.org/abs/2008.10048)
+at [LINE](https://en.wikipedia.org/wiki/Line_(software)) Corp. and later [LY Corp.](https://research.lycorp.co.jp/jp/publications) (i.e., LINEヤフー).
 
 I am the main contributor to [Pyroomacoustics](https://github.com/LCAV/pyroomacoustics),
 a Python package for room simulation and audio array processing. The

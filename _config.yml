@@ -5,9 +5,9 @@ description: > # this means to ignore newlines until "baseurl:"
   My name is Robin Scheibler and this is my site. You can find stuff about
   the research and projects I do.
 tldr_bio: >
-  TL;DR &mdash; I am Robin Scheibler, a senior researcher at
-  [LINE Corporation](https://engineering.linecorp.com/en/research/)
-  working more often than not on audio processing and stuff.
+  TL;DR &mdash; I am Robin Scheibler, a research engineer at
+  [Google Deepmind](https://deepmind.google/)
+  working more often than not on (neural) audio processing and stuff.
   I like coding and making hardware, and I like it open source.
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site

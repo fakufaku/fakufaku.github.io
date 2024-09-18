@@ -1,5 +1,27 @@
 journal:
   - authors:
+    - Y.-J. Lu
+    - X. Chang
+    - C. Li
+    - W. Zhang
+    - S. Cornell
+    - Z. Ni
+    - Y. Masuyama
+    - B. Yan
+    - R. Scheibler
+    - Z.-Qiu Wang
+    - Y. Tsao
+    - Y. Qian
+    - S. Watanabe
+    title: "Software Design and User Interface of ESPnet-SE++: Speech Enhancement for Robust Speech Processing"
+    journal: Journal of Open Source Software
+    volume: 8
+    issue: 91
+    pages: 5403
+    year: 2023
+    pdf: https://joss.theoj.org/papers/10.21105/joss.05403.pdf
+
+  - authors:
     - Y. Du
     - R. Scheibler
     - M. Togami
@@ -74,6 +96,69 @@ journal:
     pdf: http://infoscience.epfl.ch/record/192799/files/journal_2013_spie_litho.pdf?version=1)
 
 conference:
+  - authors:
+    - R. Scheibler
+    - Y. Fujita
+    - Y. Shirahata
+    - T. Komatsu
+    title: "Universal Score-based Speech Enhancement with High Content Preservation"
+    booktitle: Proc. Interspeech
+    location: Kos, GR
+    year: 2024
+    pdf: https://www.isca-archive.org/interspeech_2024/scheibler24_interspeech.pdf
+    code: https://github.com/line/open-universe
+    samples: https://www.robinscheibler.org/interspeech2024-universepp-samples/
+
+  - authors:
+    - Wangyou Zhang
+    - Robin Scheibler
+    - Kohei Saijo
+    - Samuele Cornell
+    - Chenda Li
+    - Zhaoheng Ni
+    - Anurag Kumar
+    - Jan Pirklbauer
+    - Marvin Sach
+    - Shinji Watanabe
+    - Tim Fingscheidt
+    - Yanmin Qian
+    title: "URGENT Challenge: Universality, Robustness, and Generalizability For Speech Enhancement"
+    booktitle: Proc. Interspeech
+    location: Kos, GR
+    year: 2024
+    pdf: https://www.isca-archive.org/interspeech_2024/zhang24h_interspeech.pdf
+
+  - authors:
+    - Jeff Hwang
+    - Moto Hira
+    - Caroline Chen
+    - Xiaohui Zhang
+    - Zhaoheng Ni
+    - Guangzhi Sun
+    - Pingchuan Ma
+    - Ruizhe Huang
+    - Vineel Pratap
+    - Yuekai Zhang
+    - Anurag Kumar
+    - Chin-Yun Yu
+    - Chuang Zhu
+    - Chunxi Liu
+    - Jacob Kahn
+    - Mirco Ravanelli
+    - Peng Sun
+    - Shinji Watanabe
+    - Yangyang Shi
+    - Yumeng Tao
+    - Robin Scheibler
+    - Samuele Cornell
+    - Sean Kim
+    - Stavros Petridis
+    title: "TorchAudio 2.1: Advancing speech recognition, self-supervised learning, and audio processing components for PyTorch"
+    booktitle: Proc. IEEE ASRU
+    location: Taipei, TW
+    year: 2023
+    pdf: https://arxiv.org/pdf/2310.17864
+
   - authors:
     - T. Fujimura
     - R. Scheibler

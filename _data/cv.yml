@@ -1,15 +1,29 @@
 work:
+  - company: Google
+    division: Deepmind
+    location: Tokyo, Japan
+    dates: July 2024 - Present
+    position: Research Engineer
+    description: Neural audio processing.
+
+  - company: LY Corporation (LINEヤフー株式会社)
+    division: Music Processing Team
+    location: Tokyo, Japan
+    dates: September 2023 - June 2024
+    position: Researcher
+    description: Research and development of speech processing algorithms.
+
   - company: LINE Corporation
     division: Speech Team
     location: Tokyo, Japan
-    dates: March 2020 - Present
+    dates: March 2020 - September 2023
     position: Senior Researcher
     description: Research and development of speech processing algorithms.
 
   - company: SAFECAST Japan
     url: http://safecast.org
     location: Tokyo, Japan
-    dates: March 2011 - Present
+    dates: March 2011 - around 2020
     position: bGeigie dude
     description: Volunteer, designing, manufacturing and writing firmware for car-borne geo-tagged radiation measurement devices as part of a grass-root initiative to monitor fallout from the Fukushima Dai-ichi triple meltdown of March 2011. So far, 15 million measurement points have been collected using this system.
 
@@ -116,21 +130,20 @@ skills:
   - name: Expertise
     items:
       - Signal processing,
-      - Multi-channel audio processing
-      - Blind source separation
+      - Neural networks,
+      - Multi-channel audio processing,
+      - Blind source separation,
       - Optimization,
       - Algorithms,
       - Fourier,
-      - Embedded systems,
+      - Embedded systems
 
   - name: Programming
     items:
       - Python,
       - C,
       - C++,
-      - MATLAB,
       - Latex,
-      - Eagle CAD,
       - git
 
   - name: Operating Systems
