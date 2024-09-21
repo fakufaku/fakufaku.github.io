@@ -106,6 +106,7 @@ conference:
     location: Kos, GR
     year: 2024
     pdf: https://www.isca-archive.org/interspeech_2024/scheibler24_interspeech.pdf
+    slides: https://speakerdeck.com/lycorptech_jp/open-universe
     code: https://github.com/line/open-universe
     samples: https://www.robinscheibler.org/interspeech2024-universepp-samples/
 
